@@ -20,6 +20,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="JoyStick.lvlib" Type="Library" URL="../JoyStick_lib/JoyStick.lvlib"/>
+		<Item Name="UnitTest_lib.lvlib" Type="Library" URL="../UnitTest_lib/UnitTest_lib.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
