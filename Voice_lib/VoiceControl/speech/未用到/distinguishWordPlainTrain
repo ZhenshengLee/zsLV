@@ -1,0 +1,393 @@
+往	p
+前	nd
+走	v
+五	m
+米	q
+
+向前	v
+走	v
+2	m
+米	q
+左转	m
+
+前进	v
+几	m
+步	q
+
+从	p
+桌子	n
+出发	v
+走	v
+到	v
+门口	nl
+
+进入	v
+机电院	n
+大门	n
+之后	nd
+向	p
+左转	nh
+
+沿着	p
+楼道	n
+走	v
+到	v
+尽头	nd
+右	nd
+转	v
+
+走	v
+到	v
+楼梯处	n
+并	c
+沿着	p
+楼梯	n
+爬	v
+上	v
+四	m
+楼	q
+
+顺着	p
+楼道	n
+一路	m
+向	p
+南	nd
+到达	v
+c404	ws
+门口	nl
+
+进入	v
+房间	n
+后	nd
+直接	a
+走	v
+到	v
+桌子	n
+旁边	nd
+即可	v
+
+你	r
+赶紧	d
+往	p
+前	nd
+走	v
+
+前进	v
+5	m
+米	q
+然后	c
+右	nd
+转	v
+
+从	p
+这里	r
+走	v
+到	v
+A501	ws
+
+后退	v
+两	m
+步	q
+
+现在	nt
+你	r
+在	p
+原地	n
+左	nd
+转身	v
+然后	c
+走	v
+到	v
+桌子	n
+的	u
+尽头	nd
+
+右转	v
+沿着	p
+大路	n
+走	v
+到	v
+柜子	n
+旁边	nd
+
+向	p
+左	nd
+转	v
+并	c
+从	p
+门口	nl
+出去	v
+
+然后	c
+右转	v
+沿着	p
+楼道	n
+一直	d
+走	v
+到	v
+第一	m
+个	q
+交叉口	n
+
+后	nd
+转	v
+继续	v
+顺着	p
+天桥	ns
+走	v
+到	v
+一	m
+小	a
+段	q
+楼梯	n
+
+上	v
+楼梯	n
+之后	nd
+一直	d
+进入	v
+A	ws
+座	n
+
+走	v
+到	v
+楼道口	n
+右转	nd
+直到	v
+A505	ws
+的	u
+门口	nl
+
+向	p
+大门	n
+方向	n
+走	v
+经过	v
+B	ws
+座	n
+后	nd
+右拐	n
+
+一直	d
+向前	v
+走	v
+到	v
+门口	nl
+并	c
+出去	v
+机电院	n
+大门	n
+
+然后	c
+走向	v
+玉带河	ns
+的	u
+河边	nl
+
+先	d
+走	v
+到	v
+桌子	n
+旁边	nd
+右拐	n
+
+沿着	p
+桌子	n
+的	u
+边沿	nd
+走	v
+到	v
+书柜	n
+处	n
+左	nd
+拐	v
+
+再	d
+走过	v
+饮水机	n
+到	v
+大门口	nl
+右	nd
+拐	v
+出去	v
+机电	b
+楼	n
+大门	n
+
+左	nd
+转	v
+然后	c
+向前	v
+走	v
+到	v
+大门	n
+处	n
+并	c
+走	v
+出	v
+大门	n
+
+左	nd
+转弯	v
+走	v
+到	v
+丁字路口	ns
+再	d
+右	nd
+转	v
+
+穿过	v
+大门	n
+一路	m
+向前	v
+走	v
+到	v
+厕所	n
+旁边	nd
+
+向	p
+右	nd
+转	v
+进入	v
+厕所	n
+
+从	p
+起点	n
+向	p
+正北	nd
+方向	n
+出发	v
+
+沿	p
+大路	n
+行驶	v
+390	m
+米	q
+
+转身	v
+然后	c
+回到	v
+原处	n
+
+稍	d
+向	p
+右	nd
+转	v
+进入	v
+机电	b
+楼	n
+大厅	n
+
+过	v
+传达室	n
+约	d
+30	m
+米	q
+后	nd
+直行	n
+
+右	nd
+前方	nd
+转弯	v
+
+现在	nt
+出发	v
+走	v
+到	v
+桌子	n
+旁边	nd
+右	nd
+转	v
+
+沿着	p
+路	n
+走	v
+到	v
+打印机	n
+跟前	nd
+向	p
+左转	v
+直到	v
+门口	nl
+处	n
+
+出	v
+了	u
+大门	n
+往	p
+右拐	n
+一直	d
+走	v
+到	v
+十字路口	i
+那儿	r
+继续	v
+右拐	v
+
+从	p
+机电楼	n
+出发	v
+沿着	p
+玉带路	ns
+往	p
+西	nd
+走	v
+
+到达	v
+收费站	n
+那儿	r
+继续	v
+前进	v
+
+沿着	p
+路	n
+一直	d
+走	v
+到	v
+体育馆	n
+
+向	p
+后	nd
+退	v
+几	m
+步	q
+
+向前	v
+走	v
+10	m
+米	q
+左转	m
+90	m
+度	q
+
+斜	a
+穿过	v
+门	n
+多	d
+走	v
+一	m
+米	q
+
+绕	v
+着	u
+墙角	n
+右	nd
+转	v
+90	m
+度	q
+
+沿着	p
+桥	n
+的	u
+中线	n
+径直	d
+走	v
+到	v
+对面	nd
+
+移动	v
+到	v
+楼梯	n
+的	u
+底端	n
+
