@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">335577088</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
-	<Item Name="zsActor.lvclass" Type="LVClass" URL="../zsActor/zsActor.lvclass"/>
+	<Item Name="ActorWrapper.lvclass" Type="LVClass" URL="../zsActor/ActorWrapper.lvclass"/>
 </Library>
