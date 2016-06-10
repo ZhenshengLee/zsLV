@@ -33,11 +33,6 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="Input Operator Messages" Type="Folder">
-		<Item Name="op_JoyStick_ControlMessage.lvclass" Type="LVClass" URL="../Input Operator Messages/TaskForJoyStick_ControlMessage消息/op_JoyStick_ControlMessage.lvclass"/>
-		<Item Name="op_OperatorLog_Message.lvclass" Type="LVClass" URL="../Input Operator Messages/TaskFor_OperatorLog_Message Msg/op_OperatorLog_Message.lvclass"/>
-		<Item Name="Op_Vc_VoiceControlCmdArray_Msg.lvclass" Type="LVClass" URL="../Input Operator Messages/TaskFor_VoiceControlCmdArray_Msg消息/Op_Vc_VoiceControlCmdArray_Msg.lvclass"/>
-		<Item Name="op_VoiceControl_Cmd_Message.lvclass" Type="LVClass" URL="../Input Operator Messages/TaskForVoiceControl_Cmd_Message消息/op_VoiceControl_Cmd_Message.lvclass"/>
-	</Item>
+	<Item Name="Input Operator Messages" Type="Folder"/>
 	<Item Name="ControlPanel.lvclass" Type="LVClass" URL="../Input Operator/ControlPanel.lvclass"/>
 </Library>

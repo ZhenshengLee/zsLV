@@ -33,5 +33,108 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="speech" Type="Folder">
+		<Item Name=".ipynb_checkpoints" Type="Folder">
+			<Item Name="labview调用版-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/labview调用版-checkpoint.ipynb"/>
+			<Item Name="test-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/test-checkpoint.ipynb"/>
+			<Item Name="Untitled-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/Untitled-checkpoint.ipynb"/>
+			<Item Name="Untitled1-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/Untitled1-checkpoint.ipynb"/>
+			<Item Name="测试合并版-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/测试合并版-checkpoint.ipynb"/>
+			<Item Name="规范化-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/规范化-checkpoint.ipynb"/>
+			<Item Name="精简版测试-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/精简版测试-checkpoint.ipynb"/>
+			<Item Name="去掉txt版本-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/去掉txt版本-checkpoint.ipynb"/>
+			<Item Name="去掉txt版本-Copy1-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/去掉txt版本-Copy1-checkpoint.ipynb"/>
+			<Item Name="去掉txt版本-Copy2-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/去掉txt版本-Copy2-checkpoint.ipynb"/>
+			<Item Name="去掉txt版本-Copy3-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/去掉txt版本-Copy3-checkpoint.ipynb"/>
+			<Item Name="无概率手动训练数据-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/无概率手动训练数据-checkpoint.ipynb"/>
+			<Item Name="无概率无txt测试版-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/无概率无txt测试版-checkpoint.ipynb"/>
+			<Item Name="新搜集数据-checkpoint.ipynb" Type="Document" URL="../VoiceControl/speech/.ipynb_checkpoints/新搜集数据-checkpoint.ipynb"/>
+		</Item>
+		<Item Name="未用到" Type="Folder">
+			<Item Name="crfTest1" Type="Document" URL="../VoiceControl/speech/未用到/crfTest1"/>
+			<Item Name="distinguishWordJsonTest" Type="Document" URL="../VoiceControl/speech/未用到/distinguishWordJsonTest"/>
+			<Item Name="distinguishWordPlain - 副本" Type="Document" URL="../VoiceControl/speech/未用到/distinguishWordPlain - 副本"/>
+			<Item Name="distinguishWordPlainTrain" Type="Document" URL="../VoiceControl/speech/未用到/distinguishWordPlainTrain"/>
+			<Item Name="jsonData" Type="Document" URL="../VoiceControl/speech/未用到/jsonData"/>
+			<Item Name="model1" Type="Document" URL="../VoiceControl/speech/未用到/model1"/>
+			<Item Name="n_f" Type="Document" URL="../VoiceControl/speech/未用到/n_f"/>
+			<Item Name="n_f_data" Type="Document" URL="../VoiceControl/speech/未用到/n_f_data"/>
+			<Item Name="Untitled.ipynb" Type="Document" URL="../VoiceControl/speech/未用到/Untitled.ipynb"/>
+			<Item Name="Untitled1.ipynb" Type="Document" URL="../VoiceControl/speech/未用到/Untitled1.ipynb"/>
+			<Item Name="user_dic.txt" Type="Document" URL="../VoiceControl/speech/未用到/user_dic.txt"/>
+		</Item>
+		<Item Name="conlleval.pl" Type="Document" URL="../VoiceControl/speech/conlleval.pl"/>
+		<Item Name="corpus" Type="Document" URL="../VoiceControl/speech/corpus"/>
+		<Item Name="corpusAdd" Type="Document" URL="../VoiceControl/speech/corpusAdd"/>
+		<Item Name="crf_learn.exe" Type="Document" URL="../VoiceControl/speech/crf_learn.exe"/>
+		<Item Name="crf_test.exe" Type="Document" URL="../VoiceControl/speech/crf_test.exe"/>
+		<Item Name="distinguishWordJson" Type="Document" URL="../VoiceControl/speech/distinguishWordJson"/>
+		<Item Name="distinguishWordPlain" Type="Document" URL="../VoiceControl/speech/distinguishWordPlain"/>
+		<Item Name="distinguishWordPlainTest" Type="Document" URL="../VoiceControl/speech/distinguishWordPlainTest"/>
+		<Item Name="format" Type="Document" URL="../VoiceControl/speech/format"/>
+		<Item Name="get_co.dll" Type="Document" URL="../VoiceControl/speech/get_co.dll"/>
+		<Item Name="labview调用版.ipynb" Type="Document" URL="../VoiceControl/speech/labview调用版.ipynb"/>
+		<Item Name="libcrfpp.dll" Type="Document" URL="../VoiceControl/speech/libcrfpp.dll"/>
+		<Item Name="libsvm.dll" Type="Document" URL="../VoiceControl/speech/libsvm.dll"/>
+		<Item Name="Makefile" Type="Document" URL="../VoiceControl/speech/Makefile"/>
+		<Item Name="n_f_outputTest" Type="Document" URL="../VoiceControl/speech/n_f_outputTest"/>
+		<Item Name="n_f_outputTestJson" Type="Document" URL="../VoiceControl/speech/n_f_outputTestJson"/>
+		<Item Name="path_plan6.dll" Type="Document" URL="../VoiceControl/speech/path_plan6.dll"/>
+		<Item Name="roomDB.txt" Type="Document" URL="../VoiceControl/speech/roomDB.txt"/>
+		<Item Name="semanticModel" Type="Document" URL="../VoiceControl/speech/semanticModel"/>
+		<Item Name="semanticModel.txt" Type="Document" URL="../VoiceControl/speech/semanticModel.txt"/>
+		<Item Name="semanticOutput" Type="Document" URL="../VoiceControl/speech/semanticOutput"/>
+		<Item Name="semanticTemplate" Type="Document" URL="../VoiceControl/speech/semanticTemplate"/>
+		<Item Name="semanticTrain" Type="Document" URL="../VoiceControl/speech/semanticTrain"/>
+		<Item Name="splitModel" Type="Document" URL="../VoiceControl/speech/splitModel"/>
+		<Item Name="splitModel.txt" Type="Document" URL="../VoiceControl/speech/splitModel.txt"/>
+		<Item Name="splitOutput" Type="Document" URL="../VoiceControl/speech/splitOutput"/>
+		<Item Name="splitTemplate" Type="Document" URL="../VoiceControl/speech/splitTemplate"/>
+		<Item Name="splitTrain" Type="Document" URL="../VoiceControl/speech/splitTrain"/>
+		<Item Name="startFinishModel" Type="Document" URL="../VoiceControl/speech/startFinishModel"/>
+		<Item Name="startFinishmodel.txt" Type="Document" URL="../VoiceControl/speech/startFinishmodel.txt"/>
+		<Item Name="startFinishOutput" Type="Document" URL="../VoiceControl/speech/startFinishOutput"/>
+		<Item Name="startFinishTemplate" Type="Document" URL="../VoiceControl/speech/startFinishTemplate"/>
+		<Item Name="startFinishTrain" Type="Document" URL="../VoiceControl/speech/startFinishTrain"/>
+		<Item Name="svm-predict.exe" Type="Document" URL="../VoiceControl/speech/svm-predict.exe"/>
+		<Item Name="svm-scale.exe" Type="Document" URL="../VoiceControl/speech/svm-scale.exe"/>
+		<Item Name="svm-toy.exe" Type="Document" URL="../VoiceControl/speech/svm-toy.exe"/>
+		<Item Name="svm-train.exe" Type="Document" URL="../VoiceControl/speech/svm-train.exe"/>
+		<Item Name="svm.py" Type="Document" URL="../VoiceControl/speech/svm.py"/>
+		<Item Name="svm.pyc" Type="Document" URL="../VoiceControl/speech/svm.pyc"/>
+		<Item Name="svm_input" Type="Document" URL="../VoiceControl/speech/svm_input"/>
+		<Item Name="svm_input_test" Type="Document" URL="../VoiceControl/speech/svm_input_test"/>
+		<Item Name="svm_output" Type="Document" URL="../VoiceControl/speech/svm_output"/>
+		<Item Name="svmModel" Type="Document" URL="../VoiceControl/speech/svmModel"/>
+		<Item Name="svmProperty.py" Type="Document" URL="../VoiceControl/speech/svmProperty.py"/>
+		<Item Name="svmutil.py" Type="Document" URL="../VoiceControl/speech/svmutil.py"/>
+		<Item Name="svmutil.pyc" Type="Document" URL="../VoiceControl/speech/svmutil.pyc"/>
+		<Item Name="test.ipynb" Type="Document" URL="../VoiceControl/speech/test.ipynb"/>
+		<Item Name="test.py" Type="Document" URL="../VoiceControl/speech/test.py"/>
+		<Item Name="test1.py" Type="Document" URL="../VoiceControl/speech/test1.py"/>
+		<Item Name="test2.py" Type="Document" URL="../VoiceControl/speech/test2.py"/>
+		<Item Name="test_subvi.vi" Type="VI" URL="../VoiceControl/speech/test_subvi.vi"/>
+		<Item Name="topologyDB.txt" Type="Document" URL="../VoiceControl/speech/topologyDB.txt"/>
+		<Item Name="topologyDB2.txt" Type="Document" URL="../VoiceControl/speech/topologyDB2.txt"/>
+		<Item Name="udp.stl" Type="Document" URL="../VoiceControl/speech/udp.stl"/>
+		<Item Name="vipKernel.dll" Type="Document" URL="../VoiceControl/speech/vipKernel.dll"/>
+		<Item Name="vipRun.dll" Type="Document" URL="../VoiceControl/speech/vipRun.dll"/>
+		<Item Name="~$标注.xlsx" Type="Document" URL="../VoiceControl/speech/~$标注.xlsx"/>
+		<Item Name="~$分句起始点标注.xlsx" Type="Document" URL="../VoiceControl/speech/~$分句起始点标注.xlsx"/>
+		<Item Name="标注.xlsx" Type="Document" URL="../VoiceControl/speech/标注.xlsx"/>
+		<Item Name="测试合并版.ipynb" Type="Document" URL="../VoiceControl/speech/测试合并版.ipynb"/>
+		<Item Name="分句起始点标注.xlsx" Type="Document" URL="../VoiceControl/speech/分句起始点标注.xlsx"/>
+		<Item Name="规范化.ipynb" Type="Document" URL="../VoiceControl/speech/规范化.ipynb"/>
+		<Item Name="精简版测试.ipynb" Type="Document" URL="../VoiceControl/speech/精简版测试.ipynb"/>
+		<Item Name="难搞的类型.txt" Type="Document" URL="../VoiceControl/speech/难搞的类型.txt"/>
+		<Item Name="去掉txt版本-Copy1.ipynb" Type="Document" URL="../VoiceControl/speech/去掉txt版本-Copy1.ipynb"/>
+		<Item Name="去掉txt版本-Copy2.ipynb" Type="Document" URL="../VoiceControl/speech/去掉txt版本-Copy2.ipynb"/>
+		<Item Name="去掉txt版本-Copy3.ipynb" Type="Document" URL="../VoiceControl/speech/去掉txt版本-Copy3.ipynb"/>
+		<Item Name="去掉txt版本.ipynb" Type="Document" URL="../VoiceControl/speech/去掉txt版本.ipynb"/>
+		<Item Name="无概率手动训练数据.ipynb" Type="Document" URL="../VoiceControl/speech/无概率手动训练数据.ipynb"/>
+		<Item Name="无概率无txt测试版.ipynb" Type="Document" URL="../VoiceControl/speech/无概率无txt测试版.ipynb"/>
+		<Item Name="新搜集数据.ipynb" Type="Document" URL="../VoiceControl/speech/新搜集数据.ipynb"/>
+		<Item Name="需要添加的.txt" Type="Document" URL="../VoiceControl/speech/需要添加的.txt"/>
+	</Item>
 	<Item Name="Voice.lvclass" Type="LVClass" URL="../VoiceControl/Voice.lvclass"/>
 </Library>
