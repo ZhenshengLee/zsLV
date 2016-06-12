@@ -23,13 +23,18 @@
 		<Item Name="ctl" Type="Folder" URL="../ctl">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Coordinator_state" Type="Folder">
+			<Item Name="CoordinatorUI.lvlib" Type="Library" URL="../CoordinatorUI_lib/CoordinatorUI.lvlib"/>
+			<Item Name="States.lvlib" Type="Library" URL="../States_lib/States.lvlib"/>
+		</Item>
 		<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
 		<Item Name="zsLaunch.lvlib" Type="Library" URL="../zsLaunch_lib/zsLaunch.lvlib"/>
 		<Item Name="JoyStick.lvlib" Type="Library" URL="../JoyStick_lib/JoyStick.lvlib"/>
-		<Item Name="EventsLogUI.lvlib" Type="Library" URL="../EventsLogUI_lib/EventsLogUI.lvlib"/>
 		<Item Name="Voice.lvlib" Type="Library" URL="../Voice_lib/Voice.lvlib"/>
 		<Item Name="ControlPanel.lvlib" Type="Library" URL="../ControlPanel_lib/ControlPanel.lvlib"/>
 		<Item Name="UnitTest.lvlib" Type="Library" URL="../UnitTest_lib/UnitTest.lvlib"/>
+		<Item Name="EventsLogUI.lvlib" Type="Library" URL="../EventsLogUI_lib/EventsLogUI.lvlib"/>
+		<Item Name="GlobalPlanner.lvlib" Type="Library" URL="../GlobalPlanner_lib/GlobalPlanner.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -100,10 +105,18 @@
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
+				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
+				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/State Actor/State Actor/State Actor.lvclass"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="TestActors.lvlib" Type="Library" URL="../../../../../labview/1603/zsRobotSynergeticSystem/TestActors/TestActors.lvlib"/>
 			<Item Name="zsLib.lvlib" Type="Library" URL="../../../../../labview/1603/zsRobotSynergeticSystem/zsLib/zsLib.lvlib"/>
+			<Item Name="Process States.lvlib" Type="Library" URL="../../../../../labview/1512/State Pattern Actor Example/Process States/Process States.lvlib"/>
+			<Item Name="Process Actor.lvlib" Type="Library" URL="../../../../../labview/1512/State Pattern Actor Example/Process Actor/Process Actor.lvlib"/>
+			<Item Name="State Pattern UI.lvlib" Type="Library" URL="../../../../../labview/1512/State Pattern Actor Example/State Pattern UI/State Pattern UI.lvlib"/>
+			<Item Name="Localization.vi" Type="VI" URL="../CoordinatorUI_lib/State Pattern UI/Localization.vi"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
