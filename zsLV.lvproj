@@ -27,6 +27,42 @@
 			<Item Name="CoordinatorUI.lvlib" Type="Library" URL="../CoordinatorUI_lib/CoordinatorUI.lvlib"/>
 			<Item Name="States.lvlib" Type="Library" URL="../States_lib/States.lvlib"/>
 		</Item>
+		<Item Name="Map" Type="Folder">
+			<Item Name="MapBuilder" Type="Folder">
+				<Item Name="4F.txt" Type="Document" URL="../Map_lib/MapBuilder/4F.txt"/>
+				<Item Name="5F.txt" Type="Document" URL="../Map_lib/MapBuilder/5F.txt"/>
+				<Item Name="Acquire_Path_Alias_Name.vi" Type="VI" URL="../Map_lib/MapBuilder/Acquire_Path_Alias_Name.vi"/>
+				<Item Name="Acquire_Path_Relation.vi" Type="VI" URL="../Map_lib/MapBuilder/Acquire_Path_Relation.vi"/>
+				<Item Name="Acquire_Topology_Matrix.vi" Type="VI" URL="../Map_lib/MapBuilder/Acquire_Topology_Matrix.vi"/>
+				<Item Name="Arc_to_Points.vi" Type="VI" URL="../Map_lib/MapBuilder/Arc_to_Points.vi"/>
+				<Item Name="AutoDraw_Picture.vi" Type="VI" URL="../Map_lib/MapBuilder/AutoDraw_Picture.vi"/>
+				<Item Name="Autogenerate_Topology_Relation.vi" Type="VI" URL="../Map_lib/MapBuilder/Autogenerate_Topology_Relation.vi"/>
+				<Item Name="Cluster_to_Picture.vi" Type="VI" URL="../Map_lib/MapBuilder/Cluster_to_Picture.vi"/>
+				<Item Name="data.txt" Type="Document" URL="../Map_lib/MapBuilder/data.txt"/>
+				<Item Name="Deg_Rad.vi" Type="VI" URL="../Map_lib/MapBuilder/Deg_Rad.vi"/>
+				<Item Name="DQ_Conjugate.vi" Type="VI" URL="../Map_lib/MapBuilder/DQ_Conjugate.vi"/>
+				<Item Name="DQ_Multiplication.vi" Type="VI" URL="../Map_lib/MapBuilder/DQ_Multiplication.vi"/>
+				<Item Name="DQ_transforming.vi" Type="VI" URL="../Map_lib/MapBuilder/DQ_transforming.vi"/>
+				<Item Name="Draw_Path.vi" Type="VI" URL="../Map_lib/MapBuilder/Draw_Path.vi"/>
+				<Item Name="Draw_SGP.vi" Type="VI" URL="../Map_lib/MapBuilder/Draw_SGP.vi"/>
+				<Item Name="FormingTR_DQ.vi" Type="VI" URL="../Map_lib/MapBuilder/FormingTR_DQ.vi"/>
+				<Item Name="Generate_Start_or_Goal_District_Array .vi" Type="VI" URL="../Map_lib/MapBuilder/Generate_Start_or_Goal_District_Array .vi"/>
+				<Item Name="InitPic.vi" Type="VI" URL="../Map_lib/MapBuilder/InitPic.vi"/>
+				<Item Name="mark.vi" Type="VI" URL="../Map_lib/MapBuilder/mark.vi"/>
+				<Item Name="matrix_to_image.vi" Type="VI" URL="../Map_lib/MapBuilder/matrix_to_image.vi"/>
+				<Item Name="Node_Adjust.vi" Type="VI" URL="../Map_lib/MapBuilder/Node_Adjust.vi"/>
+				<Item Name="NodeAdjust.vi" Type="VI" URL="../Map_lib/MapBuilder/NodeAdjust.vi"/>
+				<Item Name="PicAdjust.vi" Type="VI" URL="../Map_lib/MapBuilder/PicAdjust.vi"/>
+				<Item Name="Points_to_Circle_Parameters.vi" Type="VI" URL="../Map_lib/MapBuilder/Points_to_Circle_Parameters.vi"/>
+				<Item Name="Position_Show.vi" Type="VI" URL="../Map_lib/MapBuilder/Position_Show.vi"/>
+				<Item Name="Read_Excel_Document_to_Cluster_Array.vi" Type="VI" URL="../Map_lib/MapBuilder/Read_Excel_Document_to_Cluster_Array.vi"/>
+				<Item Name="READ_For_Something.vi" Type="VI" URL="../Map_lib/MapBuilder/READ_For_Something.vi"/>
+				<Item Name="Robot_Position.ctl" Type="VI" URL="../Map_lib/MapBuilder/Robot_Position.ctl"/>
+				<Item Name="Side.vi" Type="VI" URL="../Map_lib/MapBuilder/Side.vi"/>
+				<Item Name="Track_Showing.vi" Type="VI" URL="../Map_lib/MapBuilder/Track_Showing.vi"/>
+			</Item>
+			<Item Name="Map.lvlib" Type="Library" URL="../Map_lib/Map.lvlib"/>
+		</Item>
 		<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
 		<Item Name="zsLaunch.lvlib" Type="Library" URL="../zsLaunch_lib/zsLaunch.lvlib"/>
 		<Item Name="JoyStick.lvlib" Type="Library" URL="../JoyStick_lib/JoyStick.lvlib"/>
@@ -35,6 +71,7 @@
 		<Item Name="UnitTest.lvlib" Type="Library" URL="../UnitTest_lib/UnitTest.lvlib"/>
 		<Item Name="EventsLogUI.lvlib" Type="Library" URL="../EventsLogUI_lib/EventsLogUI.lvlib"/>
 		<Item Name="GlobalPlanner.lvlib" Type="Library" URL="../GlobalPlanner_lib/GlobalPlanner.lvlib"/>
+		<Item Name="RemoteP3AT.lvlib" Type="Library" URL="../RemoteP3AT_lib/RemoteP3AT.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -109,6 +146,51 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="State Actor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/State Actor/State Actor/State Actor.lvclass"/>
+				<Item Name="Message Stream.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/Network Endpoint Actors/Abstract Classes/Message Stream/Message Stream.lvclass"/>
+				<Item Name="Cipher.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/Network Endpoint Actors/Abstract Classes/Cipher/Cipher.lvclass"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="NI_Kinematics.lvlib" Type="Library" URL="/&lt;vilib&gt;/robotics/Kinematics/NI_Kinematics.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
+				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
+				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="Nested Endpoint.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Actors/Network Endpoint Actors/Nested Endpoint/Nested Endpoint.lvlib"/>
+				<Item Name="Network Endpoint.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Actors/Network Endpoint Actors/Network Endpoint/Network Endpoint.lvlib"/>
+				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
+				<Item Name="TCP Stream Initiator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/Network Endpoint Actors/Protocols/TCP Strategy/TCP Stream Initiator/TCP Stream Initiator.lvclass"/>
+				<Item Name="TCP Stream.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/Network Endpoint Actors/Protocols/TCP Strategy/TCP Stream/TCP Stream.lvclass"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="TCP Stream Listener.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Actors/Network Endpoint Actors/Protocols/TCP Strategy/TCP Stream Listener/TCP Stream Listener.lvclass"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
+				<Item Name="IMAQ Point" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Point"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="TestActors.lvlib" Type="Library" URL="../../../../../labview/1603/zsRobotSynergeticSystem/TestActors/TestActors.lvlib"/>
@@ -117,6 +199,23 @@
 			<Item Name="Process Actor.lvlib" Type="Library" URL="../../../../../labview/1512/State Pattern Actor Example/Process Actor/Process Actor.lvlib"/>
 			<Item Name="State Pattern UI.lvlib" Type="Library" URL="../../../../../labview/1512/State Pattern Actor Example/State Pattern UI/State Pattern UI.lvlib"/>
 			<Item Name="Localization.vi" Type="VI" URL="../CoordinatorUI_lib/State Pattern UI/Localization.vi"/>
+			<Item Name="Coordinator Actor.lvlib" Type="Library" URL="../../../../../labview/1511/zsControlSystem2.0/zsControlSystem/Coordinator Actor.lvlib"/>
+			<Item Name="MapDisplayer Actor.lvlib" Type="Library" URL="../../../../../labview/1511/zsControlSystem2.0/MapDisplayer Actor/MapDisplayer Actor.lvlib"/>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Remote Endpoint P3AT Actor.lvlib" Type="Library" URL="../../../../../labview/1511/zsControlSystem2.0/Remote P3AT Actor/Remote Endpoint P3AT Actor.lvlib"/>
+			<Item Name="AriaDll.dll" Type="Document" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromWSY/dll/AriaDll.dll"/>
+			<Item Name="Input Operator Actor.lvlib" Type="Library" URL="../../../../../labview/1511/zsControlSystem2.0/Input Operator Actor/Input Operator Actor.lvlib"/>
+			<Item Name="JoyStick Actor.lvlib" Type="Library" URL="../../../../../labview/1511/zsControlSystem2.0/JoyStick Actor/JoyStick Actor.lvlib"/>
+			<Item Name="VoiceControl Actor.lvlib" Type="Library" URL="../../../../../labview/1511/zsControlSystem2.0/Voice Control Actor/VoiceControl Actor.lvlib"/>
+			<Item Name="path_plan.vi" Type="VI" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromLXY/speech/path_plan.vi"/>
+			<Item Name="path_plan6.dll" Type="Document" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromLXY/speech/path_plan6.dll"/>
+			<Item Name="get_co.dll" Type="Document" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromLXY/speech/get_co.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
