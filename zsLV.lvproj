@@ -50,7 +50,9 @@
 			<Item Name="RemoteP3AT.lvlib" Type="Library" URL="../RemoteP3AT_lib/RemoteP3AT.lvlib"/>
 		</Item>
 		<Item Name="GlobalPlanner" Type="Folder">
-			<Item Name="PathPlan6" Type="Folder"/>
+			<Item Name="PathPlan6" Type="Folder">
+				<Item Name="PathCal.vi" Type="VI" URL="../GlobalPlanner_lib/PathPlan6/PathCal.vi"/>
+			</Item>
 			<Item Name="GlobalPlanner.lvlib" Type="Library" URL="../GlobalPlanner_lib/GlobalPlanner.lvlib"/>
 		</Item>
 		<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
