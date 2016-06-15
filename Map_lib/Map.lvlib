@@ -33,6 +33,8 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="MapDisplayer的消息" Type="Folder"/>
-	<Item Name="MapDisplayer.lvclass" Type="LVClass" URL="../MapDisplayer/MapDisplayer.lvclass"/>
+	<Item Name="Map的消息" Type="Folder">
+		<Item Name="Task_robot_position_Reference消息.lvclass" Type="LVClass" URL="../Map Messages/Task_robot_position_Reference消息/Task_robot_position_Reference消息.lvclass"/>
+	</Item>
+	<Item Name="Map.lvclass" Type="LVClass" URL="../MapDisplayer/Map.lvclass"/>
 </Library>

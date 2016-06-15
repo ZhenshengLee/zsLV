@@ -24,54 +24,41 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Coordinator_state" Type="Folder">
+			<Item Name="sub_vi" Type="Folder" URL="../CoordinatorUI_lib/sub_vi">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ROSMessage" Type="Folder" URL="../CoordinatorUI_lib/ROSMessage">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="CoordinatorUI.lvlib" Type="Library" URL="../CoordinatorUI_lib/CoordinatorUI.lvlib"/>
 			<Item Name="States.lvlib" Type="Library" URL="../States_lib/States.lvlib"/>
 		</Item>
 		<Item Name="Map" Type="Folder">
-			<Item Name="MapBuilder" Type="Folder">
-				<Item Name="4F.txt" Type="Document" URL="../Map_lib/MapBuilder/4F.txt"/>
-				<Item Name="5F.txt" Type="Document" URL="../Map_lib/MapBuilder/5F.txt"/>
-				<Item Name="Acquire_Path_Alias_Name.vi" Type="VI" URL="../Map_lib/MapBuilder/Acquire_Path_Alias_Name.vi"/>
-				<Item Name="Acquire_Path_Relation.vi" Type="VI" URL="../Map_lib/MapBuilder/Acquire_Path_Relation.vi"/>
-				<Item Name="Acquire_Topology_Matrix.vi" Type="VI" URL="../Map_lib/MapBuilder/Acquire_Topology_Matrix.vi"/>
-				<Item Name="Arc_to_Points.vi" Type="VI" URL="../Map_lib/MapBuilder/Arc_to_Points.vi"/>
-				<Item Name="AutoDraw_Picture.vi" Type="VI" URL="../Map_lib/MapBuilder/AutoDraw_Picture.vi"/>
-				<Item Name="Autogenerate_Topology_Relation.vi" Type="VI" URL="../Map_lib/MapBuilder/Autogenerate_Topology_Relation.vi"/>
-				<Item Name="Cluster_to_Picture.vi" Type="VI" URL="../Map_lib/MapBuilder/Cluster_to_Picture.vi"/>
-				<Item Name="data.txt" Type="Document" URL="../Map_lib/MapBuilder/data.txt"/>
-				<Item Name="Deg_Rad.vi" Type="VI" URL="../Map_lib/MapBuilder/Deg_Rad.vi"/>
-				<Item Name="DQ_Conjugate.vi" Type="VI" URL="../Map_lib/MapBuilder/DQ_Conjugate.vi"/>
-				<Item Name="DQ_Multiplication.vi" Type="VI" URL="../Map_lib/MapBuilder/DQ_Multiplication.vi"/>
-				<Item Name="DQ_transforming.vi" Type="VI" URL="../Map_lib/MapBuilder/DQ_transforming.vi"/>
-				<Item Name="Draw_Path.vi" Type="VI" URL="../Map_lib/MapBuilder/Draw_Path.vi"/>
-				<Item Name="Draw_SGP.vi" Type="VI" URL="../Map_lib/MapBuilder/Draw_SGP.vi"/>
-				<Item Name="FormingTR_DQ.vi" Type="VI" URL="../Map_lib/MapBuilder/FormingTR_DQ.vi"/>
-				<Item Name="Generate_Start_or_Goal_District_Array .vi" Type="VI" URL="../Map_lib/MapBuilder/Generate_Start_or_Goal_District_Array .vi"/>
-				<Item Name="InitPic.vi" Type="VI" URL="../Map_lib/MapBuilder/InitPic.vi"/>
-				<Item Name="mark.vi" Type="VI" URL="../Map_lib/MapBuilder/mark.vi"/>
-				<Item Name="matrix_to_image.vi" Type="VI" URL="../Map_lib/MapBuilder/matrix_to_image.vi"/>
-				<Item Name="Node_Adjust.vi" Type="VI" URL="../Map_lib/MapBuilder/Node_Adjust.vi"/>
-				<Item Name="NodeAdjust.vi" Type="VI" URL="../Map_lib/MapBuilder/NodeAdjust.vi"/>
-				<Item Name="PicAdjust.vi" Type="VI" URL="../Map_lib/MapBuilder/PicAdjust.vi"/>
-				<Item Name="Points_to_Circle_Parameters.vi" Type="VI" URL="../Map_lib/MapBuilder/Points_to_Circle_Parameters.vi"/>
-				<Item Name="Position_Show.vi" Type="VI" URL="../Map_lib/MapBuilder/Position_Show.vi"/>
-				<Item Name="Read_Excel_Document_to_Cluster_Array.vi" Type="VI" URL="../Map_lib/MapBuilder/Read_Excel_Document_to_Cluster_Array.vi"/>
-				<Item Name="READ_For_Something.vi" Type="VI" URL="../Map_lib/MapBuilder/READ_For_Something.vi"/>
-				<Item Name="Robot_Position.ctl" Type="VI" URL="../Map_lib/MapBuilder/Robot_Position.ctl"/>
-				<Item Name="Side.vi" Type="VI" URL="../Map_lib/MapBuilder/Side.vi"/>
-				<Item Name="Track_Showing.vi" Type="VI" URL="../Map_lib/MapBuilder/Track_Showing.vi"/>
+			<Item Name="MapBuilder" Type="Folder" URL="../Map_lib/MapBuilder">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Map.lvlib" Type="Library" URL="../Map_lib/Map.lvlib"/>
+		</Item>
+		<Item Name="Voice" Type="Folder">
+			<Item Name="speech" Type="Folder" URL="../Voice_lib/VoiceControl/speech">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Voice.lvlib" Type="Library" URL="../Voice_lib/Voice.lvlib"/>
+		</Item>
+		<Item Name="RemoteP3AT" Type="Folder">
+			<Item Name="ROSMessageParser" Type="Folder"/>
+			<Item Name="RemoteP3AT.lvlib" Type="Library" URL="../RemoteP3AT_lib/RemoteP3AT.lvlib"/>
+		</Item>
+		<Item Name="GlobalPlanner" Type="Folder">
+			<Item Name="PathPlan6" Type="Folder"/>
+			<Item Name="GlobalPlanner.lvlib" Type="Library" URL="../GlobalPlanner_lib/GlobalPlanner.lvlib"/>
 		</Item>
 		<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
 		<Item Name="zsLaunch.lvlib" Type="Library" URL="../zsLaunch_lib/zsLaunch.lvlib"/>
 		<Item Name="JoyStick.lvlib" Type="Library" URL="../JoyStick_lib/JoyStick.lvlib"/>
-		<Item Name="Voice.lvlib" Type="Library" URL="../Voice_lib/Voice.lvlib"/>
 		<Item Name="ControlPanel.lvlib" Type="Library" URL="../ControlPanel_lib/ControlPanel.lvlib"/>
 		<Item Name="UnitTest.lvlib" Type="Library" URL="../UnitTest_lib/UnitTest.lvlib"/>
 		<Item Name="EventsLogUI.lvlib" Type="Library" URL="../EventsLogUI_lib/EventsLogUI.lvlib"/>
-		<Item Name="GlobalPlanner.lvlib" Type="Library" URL="../GlobalPlanner_lib/GlobalPlanner.lvlib"/>
-		<Item Name="RemoteP3AT.lvlib" Type="Library" URL="../RemoteP3AT_lib/RemoteP3AT.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
@@ -191,6 +178,67 @@
 				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
 				<Item Name="IMAQ Point" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Point"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
+				<Item Name="_ROSDirection.ctl" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/_ROSDirection.ctl"/>
+				<Item Name="TopicDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/Console/Servers/ServerSubs/TopicDef.ctl"/>
+				<Item Name="_ROSDefinition.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/_ROSDefinition.vi"/>
+				<Item Name="_ROSControl.ctl" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/_ROSControl.ctl"/>
+				<Item Name="GetServerVIName.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetServerVIName.vi"/>
+				<Item Name="CheckForNewTopic.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/CheckForNewTopic.vi"/>
+				<Item Name="WaitForStartup.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/WaitForStartup.vi"/>
+				<Item Name="CheckBuildFolder.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/CheckBuildFolder.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="GetAllPaths.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/Console/GetAllPaths.vi"/>
+				<Item Name="GetErrCodes.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetErrCodes.vi"/>
+				<Item Name="GetQueueValue.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetQueueValue.vi"/>
+				<Item Name="NodifyROS.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/NodifyROS.vi"/>
+				<Item Name="ROSToQueue.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/Console/Servers/ServerSubs/ROSToQueue.vi"/>
+				<Item Name="GetWriteQueue.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetWriteQueue.vi"/>
+				<Item Name="GetFIFOQueue.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetFIFOQueue.vi"/>
+				<Item Name="AddToQueue.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/AddToQueue.vi"/>
+				<Item Name="GetTagsForPreferences.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetTagsForPreferences.vi"/>
+				<Item Name="CleanupString.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/CleanupString.vi"/>
+				<Item Name="ConvertVItoHTML.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/ConvertVItoHTML.vi"/>
+				<Item Name="GetLogFilePath.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/LogFileCodes/GetLogFilePath.vi"/>
+				<Item Name="SaveReadPrefs.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/SaveReadPrefs.vi"/>
+				<Item Name="AddToOldMasters.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/AddToOldMasters.vi"/>
+				<Item Name="GetROSfromTopic.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetROSfromTopic.vi"/>
+				<Item Name="ROS_Topic_Close_Primitive.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/ROS_Topic_Close_Primitive.vi"/>
+				<Item Name="ROS_Topic_Close.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/ROS_Topic_Close.vi"/>
+				<Item Name="RedefineMasterIP.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/RedefineMasterIP.vi"/>
+				<Item Name="GetURI&amp;Port.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetURI&amp;Port.vi"/>
+				<Item Name="CheckMasterConnection.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/CheckMasterConnection.vi"/>
+				<Item Name="GetTopicNode_etc.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/GetTopicNode_etc.vi"/>
+				<Item Name="StartSeparateServer.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/StartSeparateServer.vi"/>
+				<Item Name="getOpenPort.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/getOpenPort.vi"/>
+				<Item Name="CheckNodeName.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/CheckNodeName.vi"/>
+				<Item Name="ROS_Topic_Init.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/ROS_Topic_Init.vi"/>
+				<Item Name="ROS_Topic_Write_Primitive.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/ROS_Topic_Write_Primitive.vi"/>
+				<Item Name="prependLength.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/prependLength.vi"/>
+				<Item Name="ROS_Topic_Write.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/ROS_Topic_Write.vi"/>
+				<Item Name="add_Header.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/add_Header.vi"/>
+				<Item Name="add_uint32.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/add_uint32.vi"/>
+				<Item Name="u32Scalar.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/u32Scalar.vi"/>
+				<Item Name="u32Array.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/u32Array.vi"/>
+				<Item Name="getTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/getTimeStamp.vi"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
+				<Item Name="add_time.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/add_time.vi"/>
+				<Item Name="timeScalar.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/timeScalar.vi"/>
+				<Item Name="timeArray.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/timeArray.vi"/>
+				<Item Name="add_string.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/add_string.vi"/>
+				<Item Name="stringScalar.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/stringScalar.vi"/>
+				<Item Name="stringArray.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/stringArray.vi"/>
+				<Item Name="add_pose.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/add_pose.vi"/>
+				<Item Name="add_point.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/add_point.vi"/>
+				<Item Name="add_float64.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/add_float64.vi"/>
+				<Item Name="float64Scalar.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/float64Scalar.vi"/>
+				<Item Name="float64Array.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/float64Array.vi"/>
+				<Item Name="add_quaternion.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/add_quaternion.vi"/>
+				<Item Name="PRY_to_Quat.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageParsing/conversions/PRY_to_Quat.vi"/>
+				<Item Name="ROS_Topic_Read_Primative.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/ROS_Topic_Read_Primative.vi"/>
+				<Item Name="ROS_Topic_Read.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/ROS_Topic_Read.vi"/>
+				<Item Name="add_vector3.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/add_vector3.vi"/>
+				<Item Name="add_pose_stamped.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/stamped/add_pose_stamped.vi"/>
+				<Item Name="add_twist.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/add_twist.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="TestActors.lvlib" Type="Library" URL="../../../../../labview/1603/zsRobotSynergeticSystem/TestActors/TestActors.lvlib"/>
@@ -216,6 +264,7 @@
 			<Item Name="path_plan.vi" Type="VI" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromLXY/speech/path_plan.vi"/>
 			<Item Name="path_plan6.dll" Type="Document" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromLXY/speech/path_plan6.dll"/>
 			<Item Name="get_co.dll" Type="Document" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromLXY/speech/get_co.dll"/>
+			<Item Name="AriaDll.dll" Type="Document" URL="../Voice_lib/FromWSY/dll/AriaDll.dll"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
