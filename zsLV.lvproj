@@ -24,6 +24,9 @@
 			<Item Name="ctl" Type="Folder" URL="../ctl">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Global_var" Type="Folder" URL="../Global_var">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
 		</Item>
 		<Item Name="Coordinator_state" Type="Folder">
