@@ -27,6 +27,12 @@
 			<Item Name="Global_var" Type="Folder" URL="../Global_var">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="WrapperFunc" Type="Folder" URL="../Wrapper_lib/WrapperFunc">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="BasicFunc" Type="Folder">
+				<Item Name="New_To_Old.vi" Type="VI" URL="../BasicFunc/New_To_Old.vi"/>
+			</Item>
 			<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
 		</Item>
 		<Item Name="Coordinator_state" Type="Folder">
