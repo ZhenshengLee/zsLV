@@ -30,8 +30,8 @@
 			<Item Name="WrapperFunc" Type="Folder" URL="../Wrapper_lib/WrapperFunc">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="BasicFunc" Type="Folder">
-				<Item Name="New_To_Old.vi" Type="VI" URL="../BasicFunc/New_To_Old.vi"/>
+			<Item Name="BasicFunc" Type="Folder" URL="../BasicFunc">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
 		</Item>
