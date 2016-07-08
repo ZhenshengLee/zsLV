@@ -38,7 +38,8 @@
 		<Item Name="Request Update from Process Msg.lvclass" Type="LVClass" URL="../Process State Messages/Request Update from Process Msg/Request Update from Process Msg.lvclass"/>
 		<Item Name="Update from Process Msg.lvclass" Type="LVClass" URL="../Process State Messages/Update from Process Msg/Update from Process Msg.lvclass"/>
 	</Item>
-	<Item Name="Idle.lvclass" Type="LVClass" URL="../Idle/Idle.lvclass"/>
-	<Item Name="Process State.lvclass" Type="LVClass" URL="../Process State/Process State.lvclass"/>
-	<Item Name="Running.lvclass" Type="LVClass" URL="../Running/Running.lvclass"/>
+	<Item Name="CoordinatorState.lvclass" Type="LVClass" URL="../Process State/CoordinatorState.lvclass"/>
+	<Item Name="Guiding.lvclass" Type="LVClass" URL="../Running/Guiding.lvclass"/>
+	<Item Name="Manual.lvclass" Type="LVClass" URL="../Manual/Manual.lvclass"/>
+	<Item Name="Ready.lvclass" Type="LVClass" URL="../Idle/Ready.lvclass"/>
 </Library>
