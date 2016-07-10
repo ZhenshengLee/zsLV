@@ -33,8 +33,9 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Go to Idle Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Idle Msg/Go to Idle Msg.lvclass"/>
-		<Item Name="Go to Running Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Running Msg/Go to Running Msg.lvclass"/>
+		<Item Name="Go to Guiding Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Running Msg/Go to Guiding Msg.lvclass"/>
+		<Item Name="Go to Manual消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Go to Manual消息/Go to Manual消息.lvclass"/>
+		<Item Name="Go to Ready Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Idle Msg/Go to Ready Msg.lvclass"/>
 		<Item Name="Request Update from Process Msg.lvclass" Type="LVClass" URL="../Process State Messages/Request Update from Process Msg/Request Update from Process Msg.lvclass"/>
 		<Item Name="Update from Process Msg.lvclass" Type="LVClass" URL="../Process State Messages/Update from Process Msg/Update from Process Msg.lvclass"/>
 	</Item>

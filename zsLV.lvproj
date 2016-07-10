@@ -62,6 +62,7 @@
 				<Item Name="sensor_msg.vi" Type="VI" URL="../RemoteP3AT_lib/ROSMessageParser/sensor_msg.vi"/>
 				<Item Name="odometry_msg.vi" Type="VI" URL="../RemoteP3AT_lib/ROSMessageParser/odometry_msg.vi"/>
 			</Item>
+			<Item Name="ROSMessageBuilder" Type="Folder"/>
 			<Item Name="RemoteP3AT.lvlib" Type="Library" URL="../RemoteP3AT_lib/RemoteP3AT.lvlib"/>
 		</Item>
 		<Item Name="GlobalPlanner" Type="Folder">
