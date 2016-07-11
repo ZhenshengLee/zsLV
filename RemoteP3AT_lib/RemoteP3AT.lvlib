@@ -33,6 +33,9 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="P3AT Actor的消息" Type="Folder"/>
+	<Item Name="P3AT Actor的消息" Type="Folder">
+		<Item Name="LocalGoal_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/LocalGoal_Msg消息/LocalGoal_Msg消息.lvclass"/>
+		<Item Name="vel_cal_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/vel_cal_Msg消息/vel_cal_Msg消息.lvclass"/>
+	</Item>
 	<Item Name="RemoteP3AT.lvclass" Type="LVClass" URL="../Remote P3AT/RemoteP3AT.lvclass"/>
 </Library>
