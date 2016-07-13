@@ -39,11 +39,9 @@
 		<Item Name="LocalGoal_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/LocalGoal_Msg消息/LocalGoal_Msg消息.lvclass"/>
 		<Item Name="P3AT_Ini_Pose_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Ini_Pose_Msg消息/P3AT_Ini_Pose_Msg消息.lvclass"/>
 		<Item Name="P3AT_Panel_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Panel_Msg消息/P3AT_Panel_Msg消息.lvclass"/>
-		<Item Name="Request Update from Process Msg.lvclass" Type="LVClass" URL="../Process State Messages/Request Update from Process Msg/Request Update from Process Msg.lvclass"/>
 		<Item Name="robot_position_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/robot_position_Msg消息/robot_position_Msg消息.lvclass"/>
 		<Item Name="Semantic_Voice_Array_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Semantic_Voice_Array_Msg消息/Semantic_Voice_Array_Msg消息.lvclass"/>
 		<Item Name="sensor_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/sensor_Msg消息/sensor_Msg消息.lvclass"/>
-		<Item Name="Update from Process Msg.lvclass" Type="LVClass" URL="../Process State Messages/Update from Process Msg/Update from Process Msg.lvclass"/>
 		<Item Name="XBOX_Control_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/XBOX_Control_Msg消息/XBOX_Control_Msg消息.lvclass"/>
 	</Item>
 	<Item Name="CoordinatorState.lvclass" Type="LVClass" URL="../Process State/CoordinatorState.lvclass"/>
