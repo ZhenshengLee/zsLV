@@ -37,6 +37,7 @@
 		<Item Name="Go to Manual消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Go to Manual消息/Go to Manual消息.lvclass"/>
 		<Item Name="Go to Ready Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Idle Msg/Go to Ready Msg.lvclass"/>
 		<Item Name="LocalGoal_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/LocalGoal_Msg消息/LocalGoal_Msg消息.lvclass"/>
+		<Item Name="P3AT_Ini_Pose_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Ini_Pose_Msg消息/P3AT_Ini_Pose_Msg消息.lvclass"/>
 		<Item Name="P3AT_Panel_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Panel_Msg消息/P3AT_Panel_Msg消息.lvclass"/>
 		<Item Name="Request Update from Process Msg.lvclass" Type="LVClass" URL="../Process State Messages/Request Update from Process Msg/Request Update from Process Msg.lvclass"/>
 		<Item Name="robot_position_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/robot_position_Msg消息/robot_position_Msg消息.lvclass"/>
