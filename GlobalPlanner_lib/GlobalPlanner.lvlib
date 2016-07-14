@@ -34,6 +34,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="GlobalPlanner Messages" Type="Folder">
+		<Item Name="GlobalPlanner_Recycle_Msg消息.lvclass" Type="LVClass" URL="../GlobalPlanner Messages/GlobalPlanner_Recycle_Msg消息/GlobalPlanner_Recycle_Msg消息.lvclass"/>
 		<Item Name="Semantic_Voice_Array_Msg消息.lvclass" Type="LVClass" URL="../GlobalPlanner Messages/Semantic_Voice_Array_Msg消息/Semantic_Voice_Array_Msg消息.lvclass"/>
 	</Item>
 	<Item Name="GlobalPlanner.lvclass" Type="LVClass" URL="../GlobalPlanner/GlobalPlanner.lvclass"/>
