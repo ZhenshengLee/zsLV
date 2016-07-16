@@ -34,6 +34,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="P3AT Actor的消息" Type="Folder">
+		<Item Name="cancel_goal_bool_msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/cancel_goal_bool_msg消息/cancel_goal_bool_msg消息.lvclass"/>
 		<Item Name="LocalGoal_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/LocalGoal_Msg消息/LocalGoal_Msg消息.lvclass"/>
 		<Item Name="P3AT_Ini_Pose_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/P3AT_Ini_Pose_Msg消息/P3AT_Ini_Pose_Msg消息.lvclass"/>
 		<Item Name="P3AT_Panel_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/P3AT_Panel_Msg消息/P3AT_Panel_Msg消息.lvclass"/>

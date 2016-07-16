@@ -64,6 +64,7 @@
 			</Item>
 			<Item Name="ROSMessageBuilder" Type="Folder">
 				<Item Name="twist_msg.vi" Type="VI" URL="../RemoteP3AT_lib/ROSMessageBuilder/twist_msg.vi"/>
+				<Item Name="Bool_msg.vi" Type="VI" URL="../States_lib/Running/Bool_msg.vi"/>
 			</Item>
 			<Item Name="RemoteP3AT.lvlib" Type="Library" URL="../RemoteP3AT_lib/RemoteP3AT.lvlib"/>
 		</Item>
@@ -280,6 +281,9 @@
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="boolArray.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/boolArray.vi"/>
+				<Item Name="boolScalar.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/subs/boolScalar.vi"/>
+				<Item Name="add_bool.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/std_msgs/add_bool.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="zsLib.lvlib" Type="Library" URL="../../../../../labview/1603/zsRobotSynergeticSystem/zsLib/zsLib.lvlib"/>
