@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>14.0f1</Version>
+<Version>14.0</Version>
 <Cluster>
 <Name>P3AT_Current</Name>
 <NumElts>6</NumElts>
