@@ -33,6 +33,9 @@
 			<Item Name="BasicFunc" Type="Folder" URL="../BasicFunc">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Source" Type="Folder" URL="../Source">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Wrapper.lvlib" Type="Library" URL="../Wrapper_lib/Wrapper.lvlib"/>
 		</Item>
 		<Item Name="Coordinator_state" Type="Folder">

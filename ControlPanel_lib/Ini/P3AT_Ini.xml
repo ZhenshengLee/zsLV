@@ -14,15 +14,15 @@
 </DBL>
 <DBL>
 <Name>now_pose_X</Name>
-<Val>0.00000000000000</Val>
+<Val>120.67300000000000</Val>
 </DBL>
 <DBL>
 <Name>now_pose_Y</Name>
-<Val>0.00000000000000</Val>
+<Val>95.27700000000000</Val>
 </DBL>
 <DBL>
 <Name>now_pose_Rot_deg</Name>
-<Val>0.00000000000000</Val>
+<Val>120.00000000000000</Val>
 </DBL>
 <EL>
 <Name>Control_Mode</Name>
@@ -31,7 +31,7 @@
 <Choice>Voice</Choice>
 <Choice>Input</Choice>
 <Choice>Undefined</Choice>
-<Val>0</Val>
+<Val>4</Val>
 </EL>
 </Cluster>
 </LVData>
