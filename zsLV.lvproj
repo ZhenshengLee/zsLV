@@ -291,8 +291,6 @@
 			<Item Name="AriaDll.dll" Type="Document" URL="../../../../../labview/1511/zsControlSystem2.0/FromOtherProject/FromWSY/dll/AriaDll.dll"/>
 			<Item Name="pose.ctl" Type="VI" URL="../../ROS-for-LabVIEW-Software/MoreExample/ctl/pose.ctl"/>
 			<Item Name="Bool_msg.vi" Type="VI" URL="../States_lib/Running/Bool_msg.vi"/>
-			<Item Name="Voice.lvclass" Type="LVClass" URL="../States_lib/Running/Voice.lvclass"/>
-			<Item Name="Go to Voice Msg.lvclass" Type="LVClass" URL="../States_lib/Process State Messages/Go to Running Msg/Go to Voice Msg.lvclass"/>
 		</Item>
 		<Item Name="程序生成规范" Type="Build"/>
 	</Item>
