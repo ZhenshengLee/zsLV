@@ -40,6 +40,7 @@
 		<Item Name="XBOX_Control_Msg消息.lvclass" Type="LVClass" URL="../ControlPanel Messages/XBOX_Control_Msg消息/XBOX_Control_Msg消息.lvclass"/>
 	</Item>
 	<Item Name="Ini" Type="Folder">
+		<Item Name="P3AT_Ini - 副本.xml" Type="Document" URL="../Ini/P3AT_Ini - 副本.xml"/>
 		<Item Name="P3AT_Ini.xml" Type="Document" URL="../Ini/P3AT_Ini.xml"/>
 	</Item>
 	<Item Name="ControlPanel.lvclass" Type="LVClass" URL="../Input Operator/ControlPanel.lvclass"/>

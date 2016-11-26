@@ -1,0 +1,37 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>14.0</Version>
+<Cluster>
+<Name>P3AT_Current</Name>
+<NumElts>6</NumElts>
+<DBL>
+<Name>max_vel</Name>
+<Val>0.49056603773585</Val>
+</DBL>
+<DBL>
+<Name>max_rot</Name>
+<Val>0.50943396226415</Val>
+</DBL>
+<DBL>
+<Name>now_pose_X</Name>
+<Val>120.67300000000000</Val>
+</DBL>
+<DBL>
+<Name>now_pose_Y</Name>
+<Val>95.27700000000000</Val>
+</DBL>
+<DBL>
+<Name>now_pose_Rot_deg</Name>
+<Val>120.00000000000000</Val>
+</DBL>
+<EL>
+<Name>Control_Mode</Name>
+<Choice>Joy</Choice>
+<Choice>Map</Choice>
+<Choice>Voice</Choice>
+<Choice>Input</Choice>
+<Choice>Undefined</Choice>
+<Val>4</Val>
+</EL>
+</Cluster>
+</LVData>

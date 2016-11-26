@@ -1,6 +1,6 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>14.0</Version>
+<Version>14.0f1</Version>
 <Cluster>
 <Name>P3AT_Current</Name>
 <NumElts>6</NumElts>
@@ -14,11 +14,11 @@
 </DBL>
 <DBL>
 <Name>now_pose_X</Name>
-<Val>120.67300000000000</Val>
+<Val>58.25000000000000</Val>
 </DBL>
 <DBL>
 <Name>now_pose_Y</Name>
-<Val>95.27700000000000</Val>
+<Val>112.39000000000000</Val>
 </DBL>
 <DBL>
 <Name>now_pose_Rot_deg</Name>

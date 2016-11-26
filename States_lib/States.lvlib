@@ -33,10 +33,12 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
-		<Item Name="Go to Guiding Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Running Msg/Go to Guiding Msg.lvclass"/>
+		<Item Name="Go to Guide消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Go to Guide消息/Go to Guide消息.lvclass"/>
+		<Item Name="Go to Localize消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Go to Localize消息/Go to Localize消息.lvclass"/>
 		<Item Name="Go to Manual消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Go to Manual消息/Go to Manual消息.lvclass"/>
 		<Item Name="Go to Ready Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Idle Msg/Go to Ready Msg.lvclass"/>
 		<Item Name="LocalGoal_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/LocalGoal_Msg消息/LocalGoal_Msg消息.lvclass"/>
+		<Item Name="Log Event消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Log Event消息/Log Event消息.lvclass"/>
 		<Item Name="P3AT_Ini_Pose_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Ini_Pose_Msg消息/P3AT_Ini_Pose_Msg消息.lvclass"/>
 		<Item Name="P3AT_Panel_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Panel_Msg消息/P3AT_Panel_Msg消息.lvclass"/>
 		<Item Name="robot_position_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/robot_position_Msg消息/robot_position_Msg消息.lvclass"/>
@@ -45,7 +47,8 @@
 		<Item Name="XBOX_Control_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/XBOX_Control_Msg消息/XBOX_Control_Msg消息.lvclass"/>
 	</Item>
 	<Item Name="CoordinatorState.lvclass" Type="LVClass" URL="../Process State/CoordinatorState.lvclass"/>
-	<Item Name="Guiding.lvclass" Type="LVClass" URL="../Running/Guiding.lvclass"/>
+	<Item Name="Guide.lvclass" Type="LVClass" URL="../Guiding/Guide.lvclass"/>
+	<Item Name="Localize.lvclass" Type="LVClass" URL="../Localize/Localize.lvclass"/>
 	<Item Name="Manual.lvclass" Type="LVClass" URL="../Manual/Manual.lvclass"/>
 	<Item Name="Ready.lvclass" Type="LVClass" URL="../Idle/Ready.lvclass"/>
 </Library>
