@@ -39,6 +39,7 @@
 		<Item Name="Go to Ready Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Idle Msg/Go to Ready Msg.lvclass"/>
 		<Item Name="Go to Voice Msg.lvclass" Type="LVClass" URL="../Process State Messages/Go to Running Msg/Go to Voice Msg.lvclass"/>
 		<Item Name="LocalGoal_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/LocalGoal_Msg消息/LocalGoal_Msg消息.lvclass"/>
+		<Item Name="MapPositionSend消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/MapPositionSend消息/MapPositionSend消息.lvclass"/>
 		<Item Name="P3AT_Ini_Pose_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Ini_Pose_Msg消息/P3AT_Ini_Pose_Msg消息.lvclass"/>
 		<Item Name="P3AT_Panel_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Panel_Msg消息/P3AT_Panel_Msg消息.lvclass"/>
 		<Item Name="robot_position_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/robot_position_Msg消息/robot_position_Msg消息.lvclass"/>

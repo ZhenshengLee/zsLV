@@ -36,7 +36,16 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
-		<Item Name="P3AT_Ini_Pose_Reference.vi" Type="VI" URL="../P3AT_Ini_Pose_Reference.vi">
+		<Item Name="MapPositionSend.vi" Type="VI" URL="../MapPositionSend.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!''!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!6%V.U982F)%&amp;D&gt;'^S,GRW9WRB=X-!%6"S&lt;W.F=X-A5X2B&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$U!+!!BH&lt;'^C97QA?!!!$U!+!!BH&lt;'^C97QA?1!!%5!+!!JH&lt;'^C97R@=G^U!!!+1#%%5W6O:!!!'E"1!!1!"Q!)!!E!#AN.98"1&lt;X.J&gt;'FP&lt;A"'1(!!(A!!(QR4&gt;'&amp;U:8-O&lt;(:M;7)14'^D97RJ?G5O&lt;(:D&lt;'&amp;T=Q!&gt;5X2B&gt;'6T,GRW&lt;'FC/ERP9W&amp;M;8JF,GRW9WRB=X-!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!,!!Q$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!.!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+		</Item>
+		<Item Name="P3AT_Ini_Pose_Msg.vi" Type="VI" URL="../P3AT_Ini_Pose_Msg.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'#!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!6%V.U982F)%&amp;D&gt;'^S,GRW9WRB=X-!%6"S&lt;W.F=X-A5X2B&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%5!+!!J*&lt;GF@='^T:6^9!!!21!I!#EFO;6^Q&lt;X.F8VE!!"&gt;!#A!137ZJ8X"P=W6@5G^U8W2F:Q!!&amp;E"1!!-!"Q!)!!E)VL5IU-7[R3E!!%:!=!!?!!!@$&amp;.U982F=SZM&gt;GRJ9B"-&lt;W.B&lt;'F[:3ZM&gt;G.M98.T!"V4&gt;'&amp;U:8-O&lt;(:M;7)[4'^D97RJ?G5O&lt;(:D&lt;'&amp;T=Q"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!E!!!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
