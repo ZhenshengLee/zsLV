@@ -275,10 +275,11 @@
 				<Item Name="PRY_to_Quat.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageParsing/conversions/PRY_to_Quat.vi"/>
 				<Item Name="add_twist.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/add_twist.vi"/>
 				<Item Name="_ROSDirection.ctl" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/_ROSDirection.ctl"/>
+				<Item Name="parse_Pose2D.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageParsing/geometry_msgs/parse_Pose2D.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="add_pose_stamped.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/stamped/add_pose_stamped.vi"/>
 				<Item Name="parse_PoseStamped.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/MessageParsing/geometry_msgs/stamped/parse_PoseStamped.vi"/>
+				<Item Name="add_pose_stamped.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/stamped/add_pose_stamped.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">

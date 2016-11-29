@@ -35,6 +35,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Map的消息" Type="Folder">
 		<Item Name="Task_robot_position_Reference消息.lvclass" Type="LVClass" URL="../Map Messages/Task_robot_position_Reference消息/Task_robot_position_Reference消息.lvclass"/>
+		<Item Name="vel_cal_Reference消息.lvclass" Type="LVClass" URL="../Map Messages/vel_cal_Reference消息/vel_cal_Reference消息.lvclass"/>
 	</Item>
 	<Item Name="Map.lvclass" Type="LVClass" URL="../MapDisplayer/Map.lvclass"/>
 </Library>
