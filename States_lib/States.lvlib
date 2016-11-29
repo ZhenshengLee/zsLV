@@ -45,6 +45,7 @@
 		<Item Name="robot_position_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/robot_position_Msg消息/robot_position_Msg消息.lvclass"/>
 		<Item Name="Semantic_Voice_Array_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Semantic_Voice_Array_Msg消息/Semantic_Voice_Array_Msg消息.lvclass"/>
 		<Item Name="sensor_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/sensor_Msg消息/sensor_Msg消息.lvclass"/>
+		<Item Name="vel_cal_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/vel_cal_Msg消息/vel_cal_Msg消息.lvclass"/>
 		<Item Name="XBOX_Control_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/XBOX_Control_Msg消息/XBOX_Control_Msg消息.lvclass"/>
 	</Item>
 	<Item Name="CoordinatorState.lvclass" Type="LVClass" URL="../Process State/CoordinatorState.lvclass"/>

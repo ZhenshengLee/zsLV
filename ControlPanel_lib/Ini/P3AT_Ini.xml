@@ -6,11 +6,11 @@
 <NumElts>6</NumElts>
 <DBL>
 <Name>max_vel</Name>
-<Val>0.49056603773585</Val>
+<Val>0.60000000000000</Val>
 </DBL>
 <DBL>
 <Name>max_rot</Name>
-<Val>0.50943396226415</Val>
+<Val>0.60000000000000</Val>
 </DBL>
 <DBL>
 <Name>now_pose_X</Name>
