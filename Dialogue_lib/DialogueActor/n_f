@@ -1,0 +1,1036 @@
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+五	m	Num
+米	q	DistanceUnit
+
+向前	v	Direction
+走	v	DurativeVerb
+2	m	Num
+米	q	DistanceUnit
+左转	v	MomentaryVerb
+
+前进	v	DurativeVerb
+几	m	Num
+步	q	DistanceUnit
+
+从	p	Prep
+桌子	n	Place
+出发	v	DurativeVerb
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+门口	n	Place
+
+进入	v	DurativeVerb
+机电院	n	B-Place
+大门	n	I-Place
+之后	nd	Conj
+向	p	Prep
+左转	v	MomentaryVerb
+
+沿着	p	Prep
+楼道	n	Place
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+尽头	nd	Place
+右	nd	Direction
+转	v	MomentaryVerb
+
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+楼梯处	n	Place
+并	c	Conj
+沿着	p	Prep
+楼梯	n	Place
+爬	v	B-DurativeVerb
+上	v	I-DurativeVerb
+四	m	B-Place
+楼	q	I-Place
+
+顺着	p	Prep
+楼道	n	Place
+一路	m	Other
+向	p	Prep
+南	nd	Direction
+到达	v	DurativeVerb
+c404	ws	B-Place
+门口	n	I-Place
+
+进入	v	DurativeVerb
+房间	n	Place
+后	nd	Conj
+直接	a	Other
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+桌子	n	B-Place
+旁边	nd	I-Place
+即可	v	Other
+
+你	r	Other
+赶紧	d	Other
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+
+前进	v	DurativeVerb
+5	m	Num
+米	q	DistanceUnit
+然后	c	Conj
+右	nd	Direction
+转	v	MomentaryVerb
+
+从	p	Prep
+这里	r	Place
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+A501	ws	Place
+
+后退	v	DurativeVerb
+两	m	Num
+步	q	DistanceUnit
+
+现在	nm	Other
+你	r	Other
+在	p	Prep
+原地	n	Place
+左	nd	Direction
+转身	v	MomentaryVerb
+然后	c	Conj
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+桌子	n	B-Place
+的	u	I-Place
+尽头	nd	I-Place
+
+右转	v	MomentaryVerb
+沿着	p	Prep
+大路	n	Place
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+柜子	n	B-Place
+旁边	nd	I-Place
+
+向	p	Prep
+左	nd	Direction
+转	v	MomentaryVerb
+并	c	Conj
+从	p	Prep
+门口	n	Place
+出去	v	DurativeVerb
+
+然后	c	Conj
+右转	v	MomentaryVerb
+沿着	p	Prep
+楼道	n	Place
+一直	d	Other
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+第一	m	B-Place
+个	q	I-Place
+交叉口	n	I-Place
+
+后	nd	Direction
+转	v	MomentaryVerb
+继续	v	Other
+顺着	p	Prep
+天桥	n	Place
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+一	m	B-Place
+小	a	I-Place
+段	q	I-Place
+楼梯	n	I-Place
+
+上	v	DurativeVerb
+楼梯	n	Place
+之后	nd	Conj
+一直	d	Other
+进入	v	DurativeVerb
+A	ws	B-Place
+座	n	I-Place
+
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+楼道口	n	Place
+右转	v	MomentaryVerb
+直到	v	DurativeVerb
+A505	ws	B-Place
+的	u	I-Place
+门口	n	I-Place
+
+向	p	Prep
+大门	n	B-Direction
+方向	n	I-Direction
+走	v	DurativeVerb
+经过	v	DurativeVerb
+B	ws	B-Place
+座	n	I-Place
+后	nd	Conj
+右拐	n	MomentaryVerb
+
+一直	d	Other
+向前	v	Direction
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+门口	n	Place
+并	c	Conj
+出去	v	DurativeVerb
+机电院	n	B-Place
+大门	n	I-Place
+
+然后	c	Conj
+走向	v	DurativeVerb
+玉带河	n	B-Place
+的	u	I-Place
+河边	n	I-Place
+
+先	d	Conj
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+桌子	n	B-Place
+旁边	nd	I-Place
+右拐	n	MomentaryVerb
+
+沿着	p	Prep
+桌子	n	B-Place
+的	u	I-Place
+边沿	nd	I-Place
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+书柜	n	B-Place
+处	n	I-Place
+左	nd	Direction
+拐	v	MomentaryVerb
+
+再	d	Conj
+走过	v	DurativeVerb
+饮水机	n	Place
+到	v	DurativeVerb
+大门口	n	Place
+右	nd	Direction
+拐	v	MomentaryVerb
+出去	v	DurativeVerb
+机电	b	B-Place
+楼	n	I-Place
+大门	n	I-Place
+
+左	nd	Direction
+转	v	MomentaryVerb
+然后	c	Conj
+向前	v	Direction
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+大门	n	B-Place
+处	n	I-Place
+并	c	Conj
+走	v	B-DurativeVerb
+出	v	I-DurativeVerb
+大门	n	Place
+
+左	nd	Direction
+转弯	v	MomentaryVerb
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+丁字路口	n	Place
+再	d	Conj
+右	nd	Direction
+转	v	MomentaryVerb
+
+穿过	v	DurativeVerb
+大门	n	Place
+一路	m	Other
+向前	v	Direction
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+厕所	n	B-Place
+旁边	nd	I-Place
+
+向	p	Prep
+右	nd	Direction
+转	v	MomentaryVerb
+进入	v	DurativeVerb
+厕所	n	Place
+
+从	p	Prep
+起点	n	Place
+向	p	Prep
+正北	nd	B-Direction
+方向	n	I-Direction
+出发	v	DurativeVerb
+
+沿	p	Prep
+大路	n	Place
+行驶	v	DurativeVerb
+390	m	Num
+米	q	DistanceUnit
+
+转身	v	MomentaryVerb
+然后	c	Conj
+回到	v	DurativeVerb
+原处	n	Place
+
+稍	d	Speed
+向	p	Prep
+右	nd	Direction
+转	v	MomentaryVerb
+进入	v	DurativeVerb
+机电	b	B-Place
+楼	n	I-Place
+大厅	n	I-Place
+
+过	v	DurativeVerb
+传达室	n	Place
+约	d	Other
+30	m	Num
+米	q	DistanceUnit
+后	nd	Conj
+直行	n	MomentaryVerb
+
+右	nd	Direction
+前方	nd	Direction
+转弯	v	MomentaryVerb
+
+现在	nm	Other
+出发	v	DurativeVerb
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+桌子	n	B-Place
+旁边	nd	I-Place
+右	nd	Direction
+转	v	MomentaryVerb
+
+沿着	p	Prep
+路	n	Place
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+打印机	n	B-Place
+跟前	nd	I-Place
+向	p	Prep
+左转	v	MomentaryVerb
+直到	v	DurativeVerb
+门口	n	B-Place
+处	n	I-Place
+
+出	v	DurativeVerb
+了	u	Other
+大门	n	Place
+往	p	Prep
+右拐	n	MomentaryVerb
+一直	d	Other
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+十字路口	i	B-Place
+那儿	r	I-Place
+继续	v	Other
+右拐	v	MomentaryVerb
+
+从	p	Prep
+机电楼	n	Place
+出发	v	DurativeVerb
+沿着	p	Prep
+玉带路	n	Place
+往	p	Prep
+西	nd	Direction
+走	v	DurativeVerb
+
+到达	v	DurativeVerb
+收费站	n	B-Place
+那儿	r	I-Place
+继续	v	Other
+前进	v	DurativeVerb
+
+沿着	p	Prep
+路	n	Place
+一直	d	Other
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+体育馆	n	Place
+
+向	p	Prep
+后	nd	Direction
+退	v	DurativeVerb
+几	m	Num
+步	q	DistanceUnit
+
+向前	v	Direction
+走	v	DurativeVerb
+10	m	Num
+米	q	DistanceUnit
+左转	v	MomentaryVerb
+90	m	Num
+度	q	DistanceUnit
+
+斜	a	Direction
+穿过	v	DurativeVerb
+门	n	Place
+多	d	Conj
+走	v	DurativeVerb
+一	m	Num
+米	q	DistanceUnit
+
+绕	v	DurativeVerb
+着	u	Other
+墙角	n	Place
+右	nd	Direction
+转	v	MomentaryVerb
+90	m	Num
+度	q	DistanceUnit
+
+移动	v	B-DurativeVerb
+到	v	I-DurativeVerb
+楼梯	n	B-Place
+的	u	I-Place
+底端	n	I-Place
+
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+一点	m	Distance
+
+慢慢	d	Speed
+的	u	Other
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+一点	m	Distance
+
+慢	a	Speed
+点	q	Other
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+
+稍微	d	Other
+慢	a	Speed
+一点	m	Other
+前进	v	DurativeVerb
+
+快速	d	Speed
+前进	v	DurativeVerb
+
+快点	v	Speed
+去	v	DurativeVerb
+门口	n	Place
+
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+A205	ws	B-Place
+门口	n	I-Place
+停	v	MomentaryVerb
+下来	v	Other
+
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+前面	nd	B-Place
+的	u	I-Place
+路口	n	I-Place
+处	n	I-Place
+往	v	Prep
+右拐	n	MomentaryVerb
+
+到	v	DurativeVerb
+203	m	B-Place
+房间	n	I-Place
+去	v	DurativeVerb
+
+往	p	Prep
+后	nd	Direction
+倒	v	DurativeVerb
+5	m	Num
+米	q	DistanceUnit
+
+再	d	Conj
+靠	v	DurativeVerb
+门把手	n	Direction
+近	a	Other
+一点	m	Distance
+
+走近	v	DurativeVerb
+前面	nd	B-Place
+的	u	I-Place
+那个	r	I-Place
+桌子	n	B-Place
+旁边	nd	I-Place
+
+走近	v	DurativeVerb
+前面	nd	B-Place
+的	u	I-Place
+第二	m	I-Place
+个	q	I-Place
+桌子	n	B-Place
+旁边	nd	I-Place
+
+下	v	DurativeVerb
+楼梯	n	Place
+后	nd	Conj
+往	p	Prep
+左	nd	Direction
+拐	v	MomentaryVerb
+
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+走廊	n	B-Place
+尽头	nd	I-Place
+
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+床	n	B-Place
+的	u	I-Place
+跟前	nd	I-Place
+右转	v	MomentaryVerb
+
+走	v	DurativeVerb
+5	m	Num
+米	q	DistanceUnit
+左	nd	Direction
+转	v	MomentaryVerb
+个	q	Num
+弯	n	DistanceUnit
+再	d	Conj
+走	v	DurativeVerb
+1	m	Num
+米	q	DistanceUnit
+
+沿着	p	Prep
+这	r	B-Place
+条	q	I-Place
+路	n	I-Place
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+
+快速	d	Speed
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+门口	n	Place
+左	nd	Direction
+转	v	MomentaryVerb
+
+转头	v	MomentaryVerb
+
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+前方	n	Direction
+5	m	Num
+米	q	DistanceUnit
+处	n	Other
+转头	v	MomentaryVerb
+
+到	v	DurativeVerb
+门口	n	B-Place
+处	n	I-Place
+调头	v	MomentaryVerb
+
+快速	d	Speed
+到	v	DurativeVerb
+厕所	n	Place
+回头	v	MomentaryVerb
+
+慢	a	Speed
+一点	m	Other
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+厕所	n	Place
+调头	v	MomentaryVerb
+
+沿	p	Prep
+东	nd	B-Place
+长安街	n	I-Place
+行驶	v	DurativeVerb
+940	m	Num
+米	q	DistanceUnit
+
+到	p	DurativeVerb
+第3	m	B-Place
+个	q	I-Place
+路口	n	I-Place
+左	nd	Direction
+转	v	MomentaryVerb
+进入	v	DurativeVerb
+湖北	n	B-Place
+西	nd	I-Place
+路	n	I-Place
+
+朝着	p	Prep
+大街	n	B-Direction
+方向	n	I-Direction
+直行	v	MomentaryVerb
+进入	v	DurativeVerb
+民权	n	B-Place
+门桥	n	I-Place
+
+快	a	Speed
+一点	m	Other
+
+前进	v	DurativeVerb
+一	m	Num
+点	q	DistanceUnit
+
+后退	v	DurativeVerb
+一点	m	Distance
+
+后退	v	DurativeVerb
+几	m	Num
+步	q	DistanceUnit
+
+退后	v	DurativeVerb
+一点	m	Distance
+
+在	p	Prep
+前面	nd	B-Place
+拐弯	v	I-Place
+处	n	I-Place
+停	v	MomentaryVerb
+下来	v	Other
+
+在	p	Prep
+拐弯	v	B-Place
+处	v	I-Place
+停	v	MomentaryVerb
+下来	v	Other
+
+去	v	DurativeVerb
+201	m	Place
+
+走	v	DurativeVerb
+快	a	Speed
+点	q	Other
+
+快点	d	Speed
+走	v	DurativeVerb
+
+前方	n	Direction
+转弯	v	B-Place
+的	u	I-Place
+地方	n	I-Place
+停	v	MomentaryVerb
+下来	v	Other
+
+到	p	Prep
+左边	nd	B-Place
+转弯	v	I-Place
+的	u	I-Place
+地方	n	I-Place
+停	v	MomentaryVerb
+
+朝着	p	Prep
+门口	n	B-Direction
+方向	n	I-Direction
+走	v	B-DurativeVerb
+过去	v	I-DurativeVerb
+
+向着	p	Prep
+门口	n	Place
+走	v	B-DurativeVerb
+过去	v	I-DurativeVerb
+
+朝着	p	Prep
+电梯	n	B-Direction
+的	u	I-Direction
+方向	n	I-Direction
+走	v	DurativeVerb
+
+穿过	v	DurativeVerb
+前面	nd	B-Place
+那个	r	I-Place
+门	n	I-Place
+上	nd	DurativeVerb
+楼梯	n	Place
+左	nd	Direction
+转	v	MomentaryVerb
+再	d	Conj
+往	p	Prep
+前面	nd	Direction
+走	v	DurativeVerb
+十	m	Num
+米	q	DistanceUnit
+右	nd	Direction
+转	v	MomentaryVerb
+
+从	p	Prep
+B	ws	B-Place
+座	n	I-Place
+405	m	I-Place
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+A	ws	B-Place
+座	n	I-Place
+502	m	I-Place
+
+走	v	DurativeVerb
+远	a	Other
+一点	m	Distance
+
+走	v	DurativeVerb
+远	a	Other
+点	n	Distance
+
+走	v	DurativeVerb
+的	u	Other
+再	d	Other
+远	a	Other
+一点	m	Distance
+
+往	p	Prep
+前	nd	Direction
+再	d	Other
+远	a	Other
+一点	m	Distance
+
+请	v	Other
+慢行	v	DurativeVerb
+
+以	p	Prep
+0.5	m	Num
+米每秒	q	SpeedUnit
+的	u	Other
+速度	n	Other
+前进	v	DurativeVerb
+
+以	p	Prep
+0.5	m	Num
+迈	q	SpeedUnit
+的	u	Other
+速度	n	Other
+前进	v	DurativeVerb
+
+你	r	Other
+能	v	Other
+不能	v	Other
+快	a	Speed
+一点	m	Other
+
+前方	n	Direction
+移动	v	DurativeVerb
+10	m	Num
+厘米	q	DistanceUnit
+
+迅速	a	Speed
+后退	v	DurativeVerb
+几	m	Num
+步	q	DistanceUnit
+马上	d	Speed
+右拐	v	MomentaryVerb
+
+往	p	Prep
+前	nd	Direction
+一点	m	Distance
+
+现在	nt	Other
+马上	d	Speed
+出发	v	DurativeVerb
+往	p	Prep
+门口	n	Place
+去	v	DurativeVerb
+
+抵达	v	DurativeVerb
+墙角	n	Place
+后	nd	Conj
+往	p	Prep
+左	nd	Direction
+拐	v	MomentaryVerb
+一点	m	Distance
+
+顺着	p	Prep
+这	r	B-Place
+条	q	I-Place
+路	n	I-Place
+继续	v	Other
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+直到	v	DurativeVerb
+十字路口处	n	Place
+右转	v	MomentaryVerb
+
+找到	v	DurativeVerb
+楼梯	n	Place
+然后	c	Conj
+沿着	p	Prep
+它	r	Place
+上去	v	DurativeVerb
+
+沿着	p	Prep
+路	n	Place
+一路	m	Other
+向	p	Prep
+西	nd	Direction
+抵达	v	DurativeVerb
+b205	ws	Place
+并	c	Conj
+停	v	MomentaryVerb
+下来	v	Other
+
+走	v	B-DurativeVerb
+进	v	I-DurativeVerb
+这	r	B-Place
+扇	q	I-Place
+门	n	I-Place
+到	v	DurativeVerb
+你	r	B-Place
+的	u	I-Place
+座位	n	I-Place
+去	v	DurativeVerb
+
+你	r	Other
+马上	d	Other
+往	p	Prep
+后退	v	DurativeVerb
+一点	m	Distance
+
+后退	v	DurativeVerb
+两	m	Num
+米	q	DistanceUnit
+然后	c	Conj
+再	d	Conj
+回头	v	MomentaryVerb
+
+由	p	Prep
+原点	n	Place
+出发	v	DurativeVerb
+一直	d	Other
+向前	v	Direction
+移动	v	B-DurativeVerb
+到	v	I-DurativeVerb
+c400	ws	Place
+
+向	p	Prep
+后退	v	DurativeVerb
+一点	m	Distance
+
+先	d	Conj
+右	nd	Direction
+转	v	MomentaryVerb
+然后	c	Conj
+迅速	d	Other
+向	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+5	m	Num
+米	q	DistanceUnit
+
+先	d	Conj
+左	nd	Direction
+转弯	v	MomentaryVerb
+接	v	Other
+下来	v	Other
+再	d	Other
+顺着	p	Prep
+大路	n	Place
+前进	v	DurativeVerb
+直到	v	DurativeVerb
+黑板	n	B-Place
+前面	nd	I-Place
+
+往	p	Prep
+右	nd	Direction
+拐	v	DurativeVerb
+一点	m	Distance
+然后	c	Conj
+出门	v	DurativeVerb
+去	v	DurativeVerb
+
+马上	d	Speed
+右	nd	Direction
+转	v	MomentaryVerb
+并	c	Conj
+沿	p	Prep
+楼道	n	Place
+前进	v	DurativeVerb
+直到	v	DurativeVerb
+十字路口	i	Place
+
+后	nd	Direction
+转身	v	MomentaryVerb
+然后	c	Conj
+向前	v	Direction
+走	v	DurativeVerb
+10	m	Num
+米	q	DistanceUnit
+
+沿着	p	Prep
+楼梯	n	Place
+上	v	B-DurativeVerb
+到	p	I-DurativeVerb
+4	m	B-Place
+楼	n	I-Place
+
+向前	v	B-DurativeVerb
+到	v	I-DurativeVerb
+窗户	n	B-Place
+下面	nd	I-Place
+左	nd	Direction
+转弯	v	MomentaryVerb
+
+往	p	Prep
+椅子	n	B-Direction
+的	u	I-Direction
+方向	n	I-Direction
+走	v	DurativeVerb
+两	m	Num
+米	q	DistanceUnit
+
+前进	v	B-DurativeVerb
+到	v	I-DurativeVerb
+门口	n	Place
+之后	nd	Conj
+出去	v	DurativeVerb
+到	p	Prep
+路	n	B-Place
+中央	n	I-Place
+
+快点	v	Speed
+去	v	DurativeVerb
+河	n	B-Place
+上	nd	I-Place
+的	u	I-Place
+桥	n	I-Place
+
+到	v	DurativeVerb
+电脑	n	B-Place
+的	u	I-Place
+桌子	n	I-Place
+那儿	r	I-Place
+停	v	MomentaryVerb
+下来	v	Other
+
+靠	v	DurativeVerb
+着	u	Other
+墙边	n	Place
+一直	d	Other
+走	v	B-DurativeVerb
+到	v	I-DurativeVerb
+交叉	v	B-Place
+路口	n	I-Place
+再	d	Conj
+向	p	Prep
+右拐	n	MomentaryVerb
+
+继续	v	Other
+过去	nt	DurativeVerb
+板凳	n	B-Place
+的	u	I-Place
+位置	n	I-Place
+并	c	Conj
+左转	v	MomentaryVerb
+直到	v	DurativeVerb
+书柜	n	B-Place
+处	n	I-Place
+
+右拐	n	MomentaryVerb
+之后	nd	Conj
+往	p	Prep
+前	nd	Direction
+到达	v	DurativeVerb
+出口	v	Place
+继续	v	Other
+出去	v	DurativeVerb
+
+从	p	Prep
+原点	n	Place
+向	p	Prep
+左	nd	Direction
+转	v	MomentaryVerb
+然后	c	Conj
+走	v	DurativeVerb
+1	m	Num
+米	q	DistanceUnit
+再	d	Conj
+往	p	Prep
+右	nd	Direction
+转	v	MomentaryVerb
+
+走过	v	DurativeVerb
+这	r	B-Place
+扇	q	I-Place
+门	n	I-Place
+继续	v	DurativeVerb
+往	p	Prep
+前	nd	Direction
+一直	d	Other
+到达	v	DurativeVerb
+空调	n	B-Place
+的	u	I-Place
+前面	nd	I-Place
+
+左	nd	Direction
+转身	v	MomentaryVerb
+进入	v	DurativeVerb
+房间	n	Place
+
+快	a	Speed
+一点	m	Other
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+几	m	Num
+步	q	DistanceUnit
+
+慢慢	d	Speed
+地	u	Other
+向	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+五	m	Num
+米	q	DistanceUnit
+
+稍微	d	Other
+快	a	Speed
+一点	m	Other
+
+后退	v	DurativeVerb
+5	m	Num
+米	q	DistanceUnit
+
+再	d	Conj
+往	p	Prep
+门把手	n	B-Direction
+的	u	I-Direction
+方向	n	I-Direction
+走	v	DurativeVerb
+
+进入	v	DurativeVerb
+房间	n	Place
+后	nd	Conj
+往	p	Prep
+右	nd	Direction
+转	v	MomentaryVerb
+
+到	v	DurativeVerb
+楼道	n	B-Place
+的	u	I-Place
+尽头	nd	I-Place
+
+跑	v	B-DurativeVerb
+到	v	I-DurativeVerb
+床	n	B-Place
+边	nd	I-Place
+后	nd	Conj
+往	p	Prep
+左	nd	Direction
+拐弯	v	MomentaryVerb
+
+沿着	p	Prep
+楼道	n	Place
+移动	v	DurativeVerb
+10	m	Num
+米	q	DistanceUnit
+后	nd	Conj
+停	v	MomentaryVerb
+下来	v	Other
+
+继续	v	Other
+往	p	Prep
+前	nd	Direction
+多	d	Other
+走	v	DurativeVerb
+一点	m	Distance
+
+快	a	Speed
+一点	m	Other
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+几	m	Num
+步	q	DistanceUnit
+

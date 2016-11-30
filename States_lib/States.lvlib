@@ -43,6 +43,7 @@
 		<Item Name="P3AT_Ini_Pose_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Ini_Pose_Msg消息/P3AT_Ini_Pose_Msg消息.lvclass"/>
 		<Item Name="P3AT_Panel_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/P3AT_Panel_Msg消息/P3AT_Panel_Msg消息.lvclass"/>
 		<Item Name="robot_position_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/robot_position_Msg消息/robot_position_Msg消息.lvclass"/>
+		<Item Name="Semantic_Dialogue_Array_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Semantic_Dialogue_Array_Msg消息/Semantic_Dialogue_Array_Msg消息.lvclass"/>
 		<Item Name="Semantic_Voice_Array_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/Semantic_Voice_Array_Msg消息/Semantic_Voice_Array_Msg消息.lvclass"/>
 		<Item Name="sensor_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/sensor_Msg消息/sensor_Msg消息.lvclass"/>
 		<Item Name="vel_cal_Msg消息.lvclass" Type="LVClass" URL="../CoordinatorState Messages/vel_cal_Msg消息/vel_cal_Msg消息.lvclass"/>

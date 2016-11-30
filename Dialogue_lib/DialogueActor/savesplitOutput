@@ -1,0 +1,1074 @@
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+再	d	Conj	B
+右	nd	Direction	M
+转	v	MomentaryVerb	M
+
+是	v	AT	B
+
+是	v	AT	B
+
+是	v	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+左转	v	MomentaryVerb	B
+再	d	Other	M
+前进	v	DurativeVerb	M
+再	d	Conj	B
+右	nd	Direction	M
+转	v	MomentaryVerb	M
+
+是	v	AT	B
+
+是	v	AT	B
+
+是	v	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+左转	v	MomentaryVerb	B
+前进	v	DurativeVerb	M
+再	d	Conj	B
+右	nd	Direction	M
+转	v	MomentaryVerb	M
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+不是	a	NAT	B
+
+开	v	DurativeVerb	B
+一下	m	Other	M
+门	n	Place	M
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+aaa	n	Place	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+shi	ws	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+打开	v	DurativeVerb	M
+门	n	Place	M
+
+打开	v	DurativeVerb	B
+门	n	Place	M
+
+是	v	AT	B
+
+打开	v	DurativeVerb	B
+门	n	Place	M
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+是	v	AT	B
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开	v	DurativeVerb	M
+一下	m	Other	M
+门	n	Place	M
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开门	v	DurativeVerb	B
+
+是	v	AT	B
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开	v	DurativeVerb	M
+一下	m	Other	M
+门	n	Place	M
+
+不是	a	NAT	B
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开	v	DurativeVerb	M
+窗户	n	Place	M
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+开	v	DurativeVerb	M
+窗户	n	Place	M
+
+走到	v	DurativeVerb	B
+a503	m	Place	M
+推	v	DurativeVerb	M
+箱子	n	Place	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+开门	v	MomentaryVerb	B
+
+是	v	AT	B
+
+是	v	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+推	v	DurativeVerb	M
+箱子	n	Place	M
+
+把	p	Prep	B
+箱子	n	Place	M
+往	p	Prep	M
+前	nd	Direction	M
+推	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+
+是	v	AT	B
+
+打开	v	DurativeVerb	B
+门	n	Place	M
+
+打开	v	DurativeVerb	B
+门	n	Place	M
+
+打开	v	DurativeVerb	B
+门	n	Place	M
+
+是	v	AT	B
+
+走到	v	DurativeVerb	B
+前面	nd	Direction	M
+打开	v	DurativeVerb	M
+门	n	Place	M
+
+走到	v	DurativeVerb	B
+前面然后	n	Place	M
+打开	v	DurativeVerb	M
+门	n	Place	M
+
+走到	v	DurativeVerb	B
+前面然后	n	Place	M
+打开	v	DurativeVerb	M
+门	n	Place	M
+
+不是	a	NAT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+拍照	v	MomentaryVerb	B
+
+是	v	AT	B
+
+拍照	v	DurativeVerb	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+拍照	v	MomentaryVerb	B
+
+快	a	Speed	B
+一点	m	Other	M
+向	p	Prep	M
+前	nd	Direction	M
+走	v	DurativeVerb	M
+500	m	Num	M
+米	q	DistanceUnit	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+
+快速	d	Speed	B
+到	v	DurativeVerb	M
+a503	m	Place	M
+
+快速	d	Speed	B
+往	p	Prep	M
+前	nd	Direction	M
+走	v	DurativeVerb	M
+500	m	Num	M
+米	q	DistanceUnit	M
+
+加速到	v	DurativeVerb	B
+a503	m	Place	M
+
+快速	d	Speed	B
+到	v	DurativeVerb	M
+a503	m	Place	M
+
+加速到	v	DurativeVerb	B
+a503	m	Place	M
+
+加速	v	Speed	B
+到	v	DurativeVerb	M
+a503	m	Place	M
+
+是	v	AT	B
+
+快速	d	Speed	B
+到	v	DurativeVerb	M
+a503	m	Place	M
+
+是的	i	AT	B
+
+到	p	Prep	B
+a503	nd	Direction	M
+去	v	DurativeVerb	M
+拍	v	DurativeVerb	M
+一张照片	n	Place	M
+
+到	p	Prep	B
+a504	n	Place	M
+去	v	DurativeVerb	M
+拍	v	DurativeVerb	M
+一张照片	n	Place	M
+
+到	p	Prep	B
+a504	n	Place	M
+去	v	DurativeVerb	M
+拍	v	DurativeVerb	M
+一张照片	n	Place	M
+
+到	p	Prep	B
+a503	nd	Direction	M
+去	v	DurativeVerb	M
+拍	v	DurativeVerb	M
+一照片	n	Place	M
+
+到	p	Prep	B
+a403	nd	Direction	M
+去	v	DurativeVerb	M
+开门	v	DurativeVerb	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+
+到	v	DurativeVerb	B
+a502	m	Place	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+
+到	v	DurativeVerb	B
+a403	m	Place	M
+
+去	v	DurativeVerb	B
+a405	m	Place	M
+
+加速	v	Speed	B
+到	v	DurativeVerb	M
+a503	m	Place	M
+
+快速	d	Speed	B
+到	v	DurativeVerb	M
+a503	m	Place	M
+
+加速	v	Speed	B
+到	v	DurativeVerb	M
+a503	m	Place	M
+然后	c	Conj	B
+拍	v	DurativeVerb	M
+一张照片	n	Place	M
+
+是的	i	AT	B
+
+到	p	Prep	B
+a504	ws	Place	M
+然后	c	Conj	B
+拍	v	DurativeVerb	M
+一张照片	n	Place	M
+
+去	v	DurativeVerb	B
+a503	m	Place	M
+然后	c	Conj	B
+拍	v	DurativeVerb	M
+一张照片	n	Place	M
+
+是的	i	AT	B
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+拍	v	DurativeVerb	B
+一张照片	n	Place	M
+
+加速	v	Speed	B
+到	v	DurativeVerb	M
+a504	ws	Place	M
+
+加速	v	Speed	B
+到	v	DurativeVerb	M
+a504	ws	Place	M
+
+加速	v	Speed	B
+到	v	DurativeVerb	M
+a504	ws	Place	M
+
+快速	d	Speed	B
+到	v	DurativeVerb	M
+a504	ws	Place	M
+
+到	p	Prep	B
+a504	n	Place	M
+去	v	DurativeVerb	M
+拧	v	DurativeVerb	M
+下	v	Other	M
+阀门	n	Place	M
+
+去	v	DurativeVerb	B
+a504	v	Other	M
+拧	v	DurativeVerb	M
+下	v	Other	M
+阀门	n	Place	M
+
+拧	v	DurativeVerb	B
+下	v	Other	M
+阀门	n	Place	M
+
+拧	v	DurativeVerb	B
+下	v	Other	M
+阀门	n	Place	M
+
+拧	v	DurativeVerb	B
+下	v	Other	M
+阀门	n	Place	M
+
+开	v	DurativeVerb	B
+一下	m	Other	M
+门	n	Place	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+去	v	DurativeVerb	B
+
+拧	v	DurativeVerb	B
+下	v	Other	M
+阀门	n	Place	M
+
+拧	v	DurativeVerb	B
+下	v	Other	M
+阀门	n	Place	M
+
+拧	v	DurativeVerb	B
+下	v	Other	M
+阀门	n	Place	M
+
+拧	v	DurativeVerb	B
+下	v	Other	M
+阀门	n	Place	M
+
+是的	i	AT	B
+
+去	v	DurativeVerb	B
+a504	v	Other	M
+拧	v	DurativeVerb	M
+下	v	Other	M
+阀门	n	Place	M
+
+到	v	DurativeVerb	B
+a503	m	Place	M
+去	v	DurativeVerb	M
+拧	v	DurativeVerb	M
+下	v	Other	M
+阀门	n	Place	M
+
+去	v	DurativeVerb	B
+a503	m	Place	M
+拍	v	DurativeVerb	M
+下	v	DurativeVerb	M
+照片	n	Place	M
+
+去	v	DurativeVerb	B
+a503	v	Other	M
+开	v	DurativeVerb	M
+下门	n	Place	M
+
+去	v	DurativeVerb	B
+a503	m	Place	M
+打开	v	DurativeVerb	B
+门	n	Place	M
+
+是的	i	AT	B
+
+到	p	Prep	B
+a503	m	Place	M
+然后	c	Conj	B
+左转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+到	p	Prep	B
+a504	n	Place	M
+拧	v	DurativeVerb	M
+下	v	Other	M
+阀门	n	Place	M
+
+走到	v	DurativeVerb	B
+a504	ws	Place	M
+开	v	DurativeVerb	B
+阀门	n	Place	M
+
+到	p	Prep	B
+a405	m	Place	M
+拍照	v	DurativeVerb	M
+
+到	p	Prep	B
+a504	n	Place	M
+拧	v	DurativeVerb	M
+阀门	n	Place	M
+
+到	p	Prep	B
+门口	n	Place	M
+拧	v	DurativeVerb	M
+下	nd	Other	M
+阀门	n	Place	M
+
+到	p	Prep	B
+门口	n	Place	M
+拍	v	DurativeVerb	M
+张照片	n	Place	M
+
+到	p	Prep	B
+门口	n	Place	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+到	p	Prep	B
+门口	n	Place	M
+拧	v	DurativeVerb	M
+下门把手	n	Place	M
+
+到	p	Prep	B
+a503	m	Place	M
+拧	v	DurativeVerb	M
+下把手	n	Place	M
+
+到	p	Prep	B
+门口	n	Place	M
+拧	v	DurativeVerb	B
+下	nd	Other	M
+门把手	n	Place	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+到	p	Prep	B
+门口	n	Place	M
+拧	v	DurativeVerb	B
+下	nd	Other	M
+阀门	n	Place	M
+
+左转	v	MomentaryVerb	B
+
+不是	a	NAT	B
+
+左转	v	MomentaryVerb	B
+
+左转	v	MomentaryVerb	B
+
+不是	a	NAT	B
+
+右转	v	MomentaryVerb	B
+
+不是	a	NAT	B
+
+左转	v	MomentaryVerb	B
+
+不是，是	a	NAT	B
+右转	v	MomentaryVerb	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+5	m	Num	M
+米	q	DistanceUnit	M
+左转	v	MomentaryVerb	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+你好	i	Other	B
+
+去	v	DurativeVerb	B
+C403	ws	Place	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+去	v	DurativeVerb	B
+C403	ws	Place	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+不是	a	NAT	B
+啊	u	Other	M
+
+我	r	Other	B
+想	v	Other	M
+去	v	DurativeVerb	M
+C402	ws	Place	M
+
+还要	v	DurativeVerb	B
+左	nd	Direction	M
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+不是	a	NAT	B
+左	nd	Direction	M
+转	v	MomentaryVerb	M
+是	a	NAT	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+不是	a	NAT	B
+
+我	r	Other	B
+想	v	Other	M
+去	v	DurativeVerb	M
+C402	ws	Place	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+啊	e	Other	B
+往	p	Prep	M
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+米	n	Place	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+叫	v	DurativeVerb	B
+你	r	Other	M
+叫声	n	Other	M
+赶忙	d	Other	M
+往	p	Prep	M
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+难道	d	Other	B
+是	v	MomentaryVerb	M
+
+湿的	a	AT	B
+
+是的	i	AT	B
+左	nd	Direction	M
+转	v	MomentaryVerb	M
+
+不是	a	NAT	B
+左	nd	Direction	M
+转	v	MomentaryVerb	M
+是	a	NAT	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+不是	a	NAT	B
+a504	n	Place	M
+是	v	DurativeVerb	B
+b403	ws	Place	M
+
+你好	i	Other	B
+
+你好	i	Other	B
+你	r	Other	M
+好	a	Other	M
+
+你	r	Other	B
+好	a	Other	M
+我	r	Other	M
+要	v	Other	M
+去	v	DurativeVerb	M
+a503	m	Place	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+不是	a	NAT	B
+室友	n	Place	M
+转	v	MomentaryVerb	M
+
+有传是由	a	NAT	B
+转	v	MomentaryVerb	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+不是	a	NAT	B
+右	nd	Direction	M
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+你好	i	Other	B
+
+尼玛	i	AT	B
+
+到	v	DurativeVerb	B
+400却	n	Place	M
+
+不是	a	NAT	B
+
+我	r	Other	B
+想	v	Other	M
+去	v	DurativeVerb	M
+C403	ws	Place	M
+
+是的	i	AT	B
+
+你好	i	Other	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+往	p	Prep	M
+右	nd	Direction	M
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+嗯	o	Speed	B
+到	v	DurativeVerb	M
+C403	ws	Place	M
+
+到时	d	Speed	B
+1403	m	Other	M
+
+到	v	DurativeVerb	B
+C403	ws	Place	M
+
+你好	i	Other	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+
+不是	a	NAT	B
+
+向前	v	Direction	B
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+
+你好	i	Other	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+三	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+是	v	AT	B
+
+嗯	o	AT	B
+你好	i	Other	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+三	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+还	d	Speed	B
+送	v	DurativeVerb	M
+卡	n	Place	M
+你	r	Other	M
+往	p	Prep	M
+前	nd	Direction	M
+走	v	DurativeVerb	M
+，	wp	Other	M
+五	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+不是	a	NAT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+1.5	m	Num	M
+米	q	DistanceUnit	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+三	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+
+不是	a	NAT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+吃	v	DurativeVerb	B
+了	u	Other	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+我	r	Other	B
+决定	v	Other	M
+走	v	DurativeVerb	M
+右	a	Direction	B
+转	v	MomentaryVerb	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+右	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+往	p	Prep	B
+右	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一点	m	Distance	M
+
+不是	a	NAT	B
+

@@ -35,6 +35,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="ControlPanel Messages" Type="Folder">
 		<Item Name="Log Event消息.lvclass" Type="LVClass" URL="../ControlPanel Messages/Log Event消息/Log Event消息.lvclass"/>
+		<Item Name="Semantic_Dialogue_Array_Msg消息.lvclass" Type="LVClass" URL="../ControlPanel Messages/Semantic_Dialogue_Array_Msg消息/Semantic_Dialogue_Array_Msg消息.lvclass"/>
 		<Item Name="Semantic_Voice_Array_Msg消息.lvclass" Type="LVClass" URL="../ControlPanel Messages/Semantic_Voice_Array_Msg消息/Semantic_Voice_Array_Msg消息.lvclass"/>
 		<Item Name="Sensor_Msg消息.lvclass" Type="LVClass" URL="../ControlPanel Messages/Sensor_Msg消息/Sensor_Msg消息.lvclass"/>
 		<Item Name="XBOX_Control_Msg消息.lvclass" Type="LVClass" URL="../ControlPanel Messages/XBOX_Control_Msg消息/XBOX_Control_Msg消息.lvclass"/>
