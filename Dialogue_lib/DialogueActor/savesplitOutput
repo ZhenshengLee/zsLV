@@ -1120,3 +1120,143 @@ C403	ws	Place	M
 
 是的	i	AT	B
 
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+三	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+快	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+慢	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+慢	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+快	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+慢	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+慢	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+快	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+三	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+慢	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+八	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+不是	a	NAT	B
+
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+不是	a	NAT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+八	m	Num	M
+米	q	DistanceUnit	M
+左	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+八	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+六	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+快	a	Speed	B
+一点	m	Other	M
+
+是的	i	AT	B
+
