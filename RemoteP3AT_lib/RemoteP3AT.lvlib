@@ -39,6 +39,7 @@
 		<Item Name="P3AT_Ini_Pose_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/P3AT_Ini_Pose_Msg消息/P3AT_Ini_Pose_Msg消息.lvclass"/>
 		<Item Name="P3AT_Panel_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/P3AT_Panel_Msg消息/P3AT_Panel_Msg消息.lvclass"/>
 		<Item Name="vel_cal_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/vel_cal_Msg消息/vel_cal_Msg消息.lvclass"/>
+		<Item Name="vel_set_Msg消息.lvclass" Type="LVClass" URL="../RemoteP3AT Messages/vel_set_Msg消息/vel_set_Msg消息.lvclass"/>
 	</Item>
 	<Item Name="RemoteP3AT.lvclass" Type="LVClass" URL="../Remote P3AT/RemoteP3AT.lvclass"/>
 </Library>
