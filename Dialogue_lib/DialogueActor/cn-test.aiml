@@ -22,20 +22,6 @@
 </category>
 
 <category>
-<pattern>确 认 加 速</pattern>
-<template>
-你是要让我走快一点吗？
-</template>
-</category>
-
-<category>
-<pattern>确 认 减 速</pattern>
-<template>
-你是要让我走慢一点吗？
-</template>
-</category>
-
-<category>
 <pattern>完 成 加 速</pattern>
 <template>
 好的，我会加快脚步的。
@@ -215,6 +201,13 @@
 <pattern>速 度 确 认 减 速</pattern>
 <template>
 请问是要减速吗？
+</template>
+</category>
+
+<category>
+<pattern>速 度 确 认 加 速</pattern>
+<template>
+请问是要加速吗？
 </template>
 </category>
 

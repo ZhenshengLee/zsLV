@@ -1072,3 +1072,51 @@ C403	ws	Place	M
 
 不是	a	NAT	B
 
+嗯	o	Other	B
+往	p	Prep	M
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+不是	a	NAT	B
+
+往	p	Prep	B
+前	nd	Direction	M
+走	v	DurativeVerb	M
+五	m	Num	M
+米	q	DistanceUnit	M
+右	nd	Direction	B
+转	v	MomentaryVerb	M
+
+是的	i	AT	B
+
+是的	i	AT	B
+
+嗯	o	Other	B
+往	p	Prep	M
+前	nd	Direction	M
+走	v	DurativeVerb	M
+一	m	Num	M
+米	q	DistanceUnit	M
+
+不是	a	NAT	B
+
+向前	v	Direction	B
+走	v	DurativeVerb	M
+三	m	Num	M
+米	q	DistanceUnit	M
+
+是的	i	AT	B
+
+快	a	Speed	B
+一点	m	Other	M
+
+走	v	DurativeVerb	B
+快	a	Speed	M
+一点	m	Other	M
+
+是的	i	AT	B
+
