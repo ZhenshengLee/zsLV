@@ -91,6 +91,7 @@
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Dialogue.lvlib" Type="Library" URL="../Dialogue_lib/Dialogue.lvlib"/>
+			<Item Name="DialogueManagement.lvlib" Type="Library" URL="../DialogueManagement/DialogueManagement.lvlib"/>
 		</Item>
 		<Item Name="JoyStick.lvlib" Type="Library" URL="../JoyStick_lib/JoyStick.lvlib"/>
 		<Item Name="ControlPanel.lvlib" Type="Library" URL="../ControlPanel_lib/ControlPanel.lvlib"/>
