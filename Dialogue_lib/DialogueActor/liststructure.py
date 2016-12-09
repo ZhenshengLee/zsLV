@@ -445,9 +445,11 @@ def extract(output):
     for unit in splitWordList:
         structure=['__']*7
         for i in xrange(len(unit)):
-            if unit[i][-1]=='s': 
-                structure[0]=unit[i][0]
-            if unit[i][-1]=='f':
+            #if unit[i][-1]=='s': 
+                #structure[0]=unit[i][0]
+            #if unit[i][-1]=='f':
+               # structure[1]=unit[i][0]
+            if 'Place' in unit[i][2]:
                 structure[1]=unit[i][0]
             if 'DurativeVerb' in unit[i][2]:
                 structure[2]=unit[i][0]
@@ -549,11 +551,9 @@ def fillElement(structureList):#提取结构化指令之后的要素规范化
         if "头" in structureList[i][2] or "转身" in structureList[i][2]:
             structureList[i][2]="掉头"
             
-        if "到" in structureList[i][2]:
+        if "到" in structureList[i][2] or "去" in structureList[i][2] or "走" in structureList[i][2] or "找" in structureList[i][2]:
             structureList[i][2]="到"
             
-        if "去" in structureList[i][2]:
-            structureList[i][2]="到"
             
         if "推" in structureList[i][2]:
             structureList[i][2]="推"
@@ -804,6 +804,8 @@ def loc(structureList,statelist,storelist):
                     statelist[0]=1
                 else:
                     storelist[0]="无匹配"
+                    statelist[0]=3
+
         
 def act(structureList,statelist,storelist):
     f7=open('action')
@@ -832,7 +834,7 @@ def act(structureList,statelist,storelist):
                     statelist[1]=1
                 else:
                     storelist[1]="无匹配"
-                   
+                    statelist[1]=3
                 
 def testAll(dataa,step,cmNum):
     laststore=['__']*5
@@ -840,7 +842,12 @@ def testAll(dataa,step,cmNum):
     mdptrain(policy)
     liststructure=[]
     structureList=[]
+    allinquiry=""
+    prompt=""
+    respond=[]
+    allrespond=""
     step=int(sys.argv[2])
+    cmNum=int(sys.argv[3])
 
     #导航指令输入
     if step==0:
@@ -862,6 +869,10 @@ def testAll(dataa,step,cmNum):
                 liststructure[i][j]=liststructure[i][j]+'\n'
                 f3.writelines(liststructure[i][j])
         f3.close()
+        
+        f5=open('respond','w')
+        f5.writelines('')
+        f5.close
                  
         print len(liststructure)
 
@@ -902,10 +913,25 @@ def testAll(dataa,step,cmNum):
         k.learn("cn-startup.xml")
         k.respond("load aiml cn")
         
-        if "无匹配" in policy_c[0]:
-            for i in range(len(laststore)):
-                laststore[i]='__'
-                storelist[i]='__'
+        if '确认' in policy_c[0]:
+            if cmNum==0:
+                print k.respond(policy_c[0])
+            else:
+                f5=open('respond','r')
+                respond=f5.readlines()
+                f5.close()
+                for j in range(len(respond)):
+                    respond[j]=respond[j].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                    if j!=0 and respond[j]!='':
+                        respond[j]="然后" + respond[j]
+                    allinquiry=allinquiry + respond[j]
+                print "请问是要让我先" + allinquiry +"然后"+ k.respond(policy_c[0]).replace('请问','').replace('是','').replace('要','').replace('让','').replace('我','')
+
+                
+            if "无匹配" in policy_c[0]:
+                for i in range(len(laststore)):
+                    laststore[i]='__'
+                    storelist[i]='__'    
                 
         f3=open('laststore','w')
         for i in range(len(laststore)):
@@ -913,7 +939,6 @@ def testAll(dataa,step,cmNum):
             f3.writelines(laststore[i])
         f3.close()
         
-        print k.respond(policy_c[0])
 
     elif step==2:
         '''CRF'''
@@ -955,30 +980,109 @@ def testAll(dataa,step,cmNum):
         k = aiml.Kernel()
         k.learn("cn-startup.xml")
         k.respond("load aiml cn")
-        
-        if "无匹配" in policy_c[0]:
-            for i in range(len(laststore)):
-                laststore[i]='__'
-                storelist[i]='__'
-                
-        f7=open('laststore','w')
-        for i in range(len(laststore)):
-            laststore[i]=laststore[i]+'\n'
-            f7.writelines(laststore[i])
-        f7.close()
 
-        if "完成" in policy_c[0]:
+        if '确认' in policy_c[0]:
+            if cmNum==0:
+                print "_"
+                print k.respond(policy_c[0])
+            else:
+                print "_"
+                f5=open('respond','r')
+                respond=f5.readlines()
+                f5.close()
+                
+                for j in range(len(respond)):
+                    respond[j]=respond[j].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                    if j!=0 and respond[j]!='':
+                        respond[j]="然后" + respond[j]
+                    allinquiry=allinquiry + respond[j]
+                print "请问是要让我先" + allinquiry +"然后"+ k.respond(policy_c[0]).replace('请问','').replace('是','').replace('要','').replace('让','').replace('我','')
+
+                
+            if "无匹配" in policy_c[0]:
+                for i in range(len(laststore)):
+                    laststore[i]='__'
+                    storelist[i]='__'
+                    
+            f7=open('laststore','w')
+            for i in range(len(laststore)):
+                laststore[i]=laststore[i]+'\n'
+                f7.writelines(laststore[i])
+            f7.close()
+            
+        if '完成' in policy_c[0]:
+            if "两" in storelist[2]:
+                storelist[2]=storelist[2].replace('两','2')
             print storelist[0].replace('\n',''),storelist[1].replace('\n',''),storelist[2].replace('\n',''),storelist[3].replace('\n',''),storelist[4].replace('\n','')
+            laststore=storelist
+            f7=open('laststore','w')
+            for i in range(len(laststore)):
+                laststore[i]=laststore[i]+'\n'
+                f7.writelines(laststore[i])
+            f7.close()
+            
             laststore=['__']*5
+            
+            f5=open('respond','r')
+            respond=f5.readlines()
+            f5.close()
+
+            
+            respond.append(k.respond(policy_c[0]))
+
+            
+            f0=open('respond','w')
+
+            for i in range(len(respond)):
+                respond[i]=respond[i]+'\n'
+                f0.writelines(respond[i])
+            f0.close()
+
         else:
-            print "_"
-            print k.respond(policy_c[0])
+
+            if '提示' in policy_c[0]:
+                print "_"
+                if cmNum==0:
+                    print k.respond(policy_c[0])
+                else:
+                    f5=open('respond','r')
+                    respond=f5.readlines()
+                    f5.close()
+                    
+                    for j in range(len(respond)):
+                        respond[j]=respond[j].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                        if j!=0 and respond[j]!='':
+                            respond[j]="然后" + respond[j]
+                        prompt=prompt + respond[j]
+                    print "你好，请问我先" + prompt + "然后怎么做？"
+
+                for i in range(len(laststore)):
+                    laststore[i]='__'
+                    storelist[i]='__' 
+                    
+                f7=open('laststore','w')    
+                for i in range(len(laststore)):
+                    laststore[i]=laststore[i]+'\n'
+                    f7.writelines(laststore[i])
+                f7.close()    
+                    
         
     elif step==3:
-        print "已完成确认，开始执行命令！"
+        f5=open('respond','r')
+        respond=f5.readlines()
+        f5.close()
+        if len(respond)!=1:
+            for i in range(len(respond)):
+                respond[i]=respond[i].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                if i!=0 and respond[i]!='':
+                    respond[i]="然后" + respond[i]
+                allrespond=allrespond + respond[i]
+            print "好的，我先" + allrespond
+        else:
+            print respond[0]
         
     elif step==4:
-        print "网络故障，请稍后再试！"
+        print "网络好像不给力，请稍后再试哦！"
         
         
     #print "\n"

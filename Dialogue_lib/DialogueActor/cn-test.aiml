@@ -15,8 +15,8 @@
 <pattern>提 示</pattern>
 <template>
 <random>
-  <li>你好，你想让我去什么地方.</li>
-  <li>你好，我有什么能为你做的吗？.</li>
+  <li>你好，你想让我去什么地方？</li>
+  <li>你好，我有什么能为你做的吗？</li>
 </random>
 </template>
 </category>
@@ -38,7 +38,7 @@
 <category>
 <pattern>确 认 * 到</pattern>
 <template>
-你确定是要去<set name="it"><person/></set>吗？
+请问是要去<set name="it"><person/></set>吗？
 </template>
 </category>
 
@@ -52,21 +52,21 @@
 <category>
 <pattern>确 认 停 *</pattern>
 <template>
-你是要让我停下来吗？
+请问是要让我停下来吗？
 </template>
 </category>
 
 <category>
 <pattern>总 确 认 * 开</pattern>
 <template>
-你确定是我去打开<set name="it"><person/></set>吗？
+请问是要我去打开<set name="it"><person/></set>吗？
 </template>
 </category>
 
 <category>
 <pattern>完 成 * 开</pattern>
 <template>
-好的，我就去打开<set name="it"><person/></set>
+好的，我就去打开<set name="it"><person/></set>。
 </template>
 </category>
 
@@ -149,6 +149,13 @@
 </category>
 
 <category>
+<pattern>动 作 确 认 * </pattern>
+<template>
+请问是要<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
 <pattern>目 的 确 认 *</pattern>
 <template>
 请问是要让我到<set name="it"><person/></set>吗？
@@ -214,14 +221,14 @@
 <category>
 <pattern>总 确 认 后 * 米</pattern>
 <template>
-是否退后<set name="it"><person/></set>米？
+请问是要退后<set name="it"><person/></set>米吗？
 </template>
 </category>
 
 <category>
 <pattern>完 成 后 * 米</pattern>
 <template>
-好的，开始退后<set name="it"><person/></set>米！
+好的，我这就退后<set name="it"><person/></set>米！
 </template>
 </category>
 
@@ -270,28 +277,28 @@
 <category>
 <pattern>总 确 认 前 * 米</pattern>
 <template>
-请问是向前走<set name="it"><person/></set>米？
+请问是要向前走<set name="it"><person/></set>米吗？
 </template>
 </category>
 
 <category>
 <pattern>总 确 认 走 * 米</pattern>
 <template>
-请问是向前走<set name="it"><person/></set>米？
+请问是要向前走<set name="it"><person/></set>米吗？
 </template>
 </category>
 
 <category>
 <pattern>完 成 前 * 米</pattern>
 <template>
-好的，执行向前<set name="it"><person/></set>米！
+好的，我这就向前走<set name="it"><person/></set>米。
 </template>
 </category>
 
 <category>
 <pattern>完 成 走 * 米</pattern>
 <template>
-好的，执行向前走<set name="it"><person/></set>米！
+好的，我这就走<set name="it"><person/></set>米。
 </template>
 </category>
 
@@ -382,7 +389,14 @@
 <category>
 <pattern>总 确 认 无 匹 配 * </pattern>
 <template>
-我不太明白您的指示，请重新下达命令。
+我不知道您说的地点在哪，请重新告诉我目的地。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 无 匹 配 </pattern>
+<template>
+我不知道要怎么做，请重新输入。
 </template>
 </category>
 
