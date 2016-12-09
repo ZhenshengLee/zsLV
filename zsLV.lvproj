@@ -80,6 +80,7 @@
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="GlobalPlanner.lvlib" Type="Library" URL="../GlobalPlanner_lib/GlobalPlanner.lvlib"/>
+			<Item Name="GlobalPlannerPyPl.lvlib" Type="Library" URL="../GlobalPlannerPyPl/GlobalPlannerPyPl.lvlib"/>
 		</Item>
 		<Item Name="DebugTool" Type="Folder">
 			<Item Name="EventsLogUI.lvlib" Type="Library" URL="../EventsLogUI_lib/EventsLogUI.lvlib"/>
