@@ -1363,3 +1363,53 @@ C403	ws	Place
 
 是的	i	AT
 
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+一	m	Num
+米	q	DistanceUnit
+
+是的	i	AT
+
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+一	m	Num
+米	q	DistanceUnit
+右	nd	Direction
+转	v	MomentaryVerb
+
+不	d	B-NAT
+是	v	I-NAT
+
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+两	m	Num
+米	q	DistanceUnit
+右	nd	Direction
+转	v	MomentaryVerb
+
+是的	i	AT
+
+不	d	B-NAT
+是	v	I-NAT
+啊	u	Other
+
+然后	c	Conj
+再	d	Conj
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+两	m	Num
+米	q	DistanceUnit
+
+再	d	Conj
+往	p	Prep
+前	nd	Direction
+走	v	DurativeVerb
+两	m	Num
+米	q	DistanceUnit
+
+是的	i	AT
+
