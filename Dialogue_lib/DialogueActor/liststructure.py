@@ -567,11 +567,11 @@ def fillElement(structureList):#提取结构化指令之后的要素规范化
         if "抬" in structureList[i][2]:
             structureList[i][2]="抬"
             
-        if "看" in structureList[i][2] or "拍摄" in structureList[i][2]:
-            structureList[i][2]="拍摄"
+        if "看" in structureList[i][2] or "拍" in structureList[i][2]:
+            structureList[i][2]="拍照"
         
         if "录" in structureList[i][2]:
-            structureList[i][2]="录"  
+            structureList[i][2]="录象"  
             
         if "采集" in structureList[i][2]:
             structureList[i][2]="采集"
@@ -616,12 +616,12 @@ def fillElement(structureList):#提取结构化指令之后的要素规范化
         #else:
             #structureList[i][2]="走"
         #地名词中C400
-        begin=re.findall(r"([A-Za-z]).*(\d{3})",structureList[i][0])
-        if begin != []:
-            structureList[i][0]=begin[0][0]+begin[0][1]
-        finish=re.findall(r"([A-Za-z]).*(\d{3})",structureList[i][1])
-        if finish != []:
-            structureList[i][1]=finish[0][0]+finish[0][1]
+        #begin=re.findall(r"([A-Za-z]).*(\d{3})",structureList[i][0])
+        #if begin != []:
+            #structureList[i][0]=begin[0][0]+begin[0][1]
+        #finish=re.findall(r"([A-Za-z]).*(\d{3})",structureList[i][1])
+        #if finish != []:
+            #structureList[i][1]=finish[0][0]+finish[0][1]
         #模糊速度规范
         #if re.match( r'(快|急|迅速|马上|立即|)' ,structureList[i][5] ) != None:        
             #structureList[i][5]='快速'
@@ -921,18 +921,45 @@ def testAll(dataa,step,cmNum):
                 respond=f5.readlines()
                 f5.close()
                 for j in range(len(respond)):
-                    respond[j]=respond[j].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                    respond[j]=respond[j].replace('好的，','').replace('我','',1).replace('这','').replace('就','').replace('马上','').replace('\n','')
                     if j!=0 and respond[j]!='':
                         respond[j]="然后" + respond[j]
                     allinquiry=allinquiry + respond[j]
-                print "请问是要让我先" + allinquiry +"然后"+ k.respond(policy_c[0]).replace('请问','').replace('是','').replace('要','').replace('让','').replace('我','')
+                print "请问是要让我先" + allinquiry +"然后"+ k.respond(policy_c[0]).replace('请问','').replace('是','').replace('要','').replace('让','').replace('我','',1)
 
                 
             if "无匹配" in policy_c[0]:
                 for i in range(len(laststore)):
                     laststore[i]='__'
                     storelist[i]='__'    
-                
+       
+        if '提示' in policy_c[0]:
+            if cmNum==0:
+                print k.respond(policy_c[0])
+            else:
+                f5=open('respond','r')
+                respond=f5.readlines()
+                f5.close()
+                    
+                for j in range(len(respond)):
+                    respond[j]=respond[j].replace('好的，','').replace('我','',1).replace('这','').replace('就','').replace('马上','').replace('\n','')
+                    if j!=0 and respond[j]!='':
+                        respond[j]="然后" + respond[j]
+                    prompt=prompt + respond[j]
+                print "你好，请问我先" + prompt + "然后怎么做？"
+
+            for i in range(len(laststore)):
+                laststore[i]='__'
+                storelist[i]='__' 
+                    
+            f7=open('laststore','w')    
+            for i in range(len(laststore)):
+                laststore[i]=laststore[i]+'\n'
+                f7.writelines(laststore[i])
+            f7.close()    
+                    
+            
+    
         f3=open('laststore','w')
         for i in range(len(laststore)):
             laststore[i]=laststore[i]+'\n'
@@ -992,11 +1019,11 @@ def testAll(dataa,step,cmNum):
                 f5.close()
                 
                 for j in range(len(respond)):
-                    respond[j]=respond[j].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                    respond[j]=respond[j].replace('好的，','').replace('我','',1).replace('这','').replace('就','').replace('马上','').replace('\n','')
                     if j!=0 and respond[j]!='':
                         respond[j]="然后" + respond[j]
                     allinquiry=allinquiry + respond[j]
-                print "请问是要让我先" + allinquiry +"然后"+ k.respond(policy_c[0]).replace('请问','').replace('是','').replace('要','').replace('让','').replace('我','')
+                print "请问是要让我先" + allinquiry +"然后"+ k.respond(policy_c[0]).replace('请问','').replace('是','').replace('要','').replace('让','').replace('我','',1)
 
                 
             if "无匹配" in policy_c[0]:
@@ -1050,7 +1077,7 @@ def testAll(dataa,step,cmNum):
                     f5.close()
                     
                     for j in range(len(respond)):
-                        respond[j]=respond[j].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                        respond[j]=respond[j].replace('好的，','').replace('我','',1).replace('这','').replace('就','').replace('马上','').replace('\n','')
                         if j!=0 and respond[j]!='':
                             respond[j]="然后" + respond[j]
                         prompt=prompt + respond[j]
@@ -1073,7 +1100,7 @@ def testAll(dataa,step,cmNum):
         f5.close()
         if len(respond)!=1:
             for i in range(len(respond)):
-                respond[i]=respond[i].replace('好的，','').replace('我','').replace('这','').replace('就','').replace('马上','').replace('\n','')
+                respond[i]=respond[i].replace('好的，','').replace('我','',1).replace('这','').replace('就','').replace('马上','').replace('\n','')
                 if i!=0 and respond[i]!='':
                     respond[i]="然后" + respond[i]
                 allrespond=allrespond + respond[i]
@@ -1082,7 +1109,7 @@ def testAll(dataa,step,cmNum):
             print respond[0]
         
     elif step==4:
-        print "网络好像不给力，请稍后再试哦！"
+        print "网络好像不给力，请稍后再试！"
         
         
     #print "\n"

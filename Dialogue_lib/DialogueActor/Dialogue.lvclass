@@ -83,4 +83,22 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
+	<Item Name="zs_parser.vi" Type="VI" URL="../../../DialogueManagement/DialogueM/zs_parser.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741825</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+	</Item>
+	<Item Name="zs_prologer.vi" Type="VI" URL="../zs_prologer.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Y!!!!$!!%!!!!$5!+!!:Q&lt;X.F8VA!!!V!#A!'='^T:6^:!!!.1!I!"H"P=W6@?A!!$U!+!!BQ&lt;X.F8X*P&gt;!!!%%!B#G:P=G.F8W*P&lt;WQ!!#"!5!!&amp;!!%!!A!$!!1!"1^H&lt;W&amp;M8X&gt;J&gt;'B@:G^S9W5!'%"!!!(`````!!9+:W^B&lt;&amp;^B=H*B?1!!%E!Q`````QFO&lt;W2F8W&gt;P97Q!"U!+!!&amp;Z!!&gt;!#A!"?!"/!0!!#Q!!!!!!!!!(!!!!!!!!!!A!!!!*!!I$!!$I!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!)!!!!#!!!!!!"!!M!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+	</Item>
 </LVClass>

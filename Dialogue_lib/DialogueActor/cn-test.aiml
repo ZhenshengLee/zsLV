@@ -120,6 +120,7 @@
 </template>
 </category>
 
+
 <category>
 <pattern>动 作 确 认 左</pattern>
 <template>
@@ -152,6 +153,13 @@
 <pattern>动 作 确 认 * </pattern>
 <template>
 请问是要<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * </pattern>
+<template>
+好的，我这就去<set name="it"><person/></set>。
 </template>
 </category>
 
@@ -618,6 +626,7 @@
   <li>我没听到那个，请您再说一遍！</li>
   <li>我没太弄明白您的意思，请您再告诉我一下。</li>
   <li>我不知道您说的是什么，请您重新输入。</li>
+  <li>我不太明白您的意思，我们可以从最简单的短话开始，比如往前走5米。</li>
 </random>
 </template>
 </category>
