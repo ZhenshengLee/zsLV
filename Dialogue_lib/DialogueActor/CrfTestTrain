@@ -1341,12 +1341,15 @@ a503	m	Place
 十	m	Num
 米	q	DistanceUnit
 
-傻不拉叽	i	Other
+加速	v	Speed
 
-嗯	o	B-AT
-是	v	I-AT
-的	u	I-AT
-，	wp	Other
 你	r	Other
-去	v	DurativeVerb
-吧	u	Other
+搞	v	Other
+快点	v	Speed
+
+减速	v	Speed
+
+左拐	n	DurativeVerb
+
+右拐	n	DurativeVerb
+

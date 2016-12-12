@@ -290,6 +290,20 @@
 </category>
 
 <category>
+<pattern>总 确 认 左 * 米</pattern>
+<template>
+请问是要向左走<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 右 * 米</pattern>
+<template>
+请问是要向右走<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
 <pattern>总 确 认 走 * 米</pattern>
 <template>
 请问是要向前走<set name="it"><person/></set>米吗？

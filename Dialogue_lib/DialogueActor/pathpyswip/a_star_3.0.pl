@@ -1,17 +1,18 @@
 :-dynamic
    path_done/1.
-
+   
+/*  
 :- consult('point_polygon.pl'),
    consult('directly_link.pl'),
-   consult('area_5F.pl'),
-   consult('node_5F.pl'). 
-/*   
+   consult('area_3F.pl'),
+   consult('node_3F.pl'). 
+ 
 path_plan(X,Y,Z,End,Path_list):-   
    point_polygon(coor(X,Y,Z),Start,1),
    atom_concat(Start,d1,StartD1),
    atom_concat(End,d1,EndD1),
    find_path(StartD1,EndD1,Path_list).   
-% path_plan(520,300,0,b505,Path_list).   
+% path_plan(520,300,0,b305,Path_list).   
   
 
 path_plan(X,Y,Z,End,Path_list1,CoorList):-   
@@ -28,8 +29,14 @@ path_plan(X,Y,Z,End,CoorList):-
    atom_concat(Start,d1,StartD1),
    atom_concat(End,d1,EndD1),
    find_path(StartD1,EndD1,PathList),
-   path2coor(PathList,CoorList),
-   save_txt(CoorList). 
+   PathList=[PathList1|PathList2],
+   (
+   sub_atom(StartD1,2, 1, _, Third),
+   Third=c -> PathList3=PathList2;
+   PathList3=PathList
+   ),
+   path2coor(PathList3,CoorList).
+   %save_txt(CoorList). 
 
 path2coor([],[]).   
 path2coor([Node|PathRest],[X,Y,Z|Rest]):-   
