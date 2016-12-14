@@ -3,8 +3,8 @@ from pyswip import Prolog
 def pathplan(x,y,z,end):
     prolog = Prolog() 
     prolog.consult('point_polygon.pl') 
-    prolog.consult('area_3F.pl') 
-    prolog.consult('node_3F.pl')
+    prolog.consult('area_4F.pl') 
+    prolog.consult('node_4F.pl')
     prolog.consult('a_star_3.0.pl') 
     prolog.consult('directly_link.pl') 
     qqq = "path_plan(" + x + "," + y+ "," + z+ "," + end + ",Coorlist)"
