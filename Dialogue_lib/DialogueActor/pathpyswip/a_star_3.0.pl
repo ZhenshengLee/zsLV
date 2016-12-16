@@ -1,12 +1,13 @@
 :-dynamic
-   path_done/1.
+   path_done/1,
+   last_starter/3.
    
-/*  
+
 :- consult('point_polygon.pl'),
    consult('directly_link.pl'),
-   consult('area_3F.pl'),
-   consult('node_3F.pl'). 
- 
+   consult('area_4F.pl'),
+   consult('node_4F.pl'). 
+/*   
 path_plan(X,Y,Z,End,Path_list):-   
    point_polygon(coor(X,Y,Z),Start,1),
    atom_concat(Start,d1,StartD1),
@@ -35,29 +36,29 @@ path_plan(X,Y,Z,End,CoorList):-
    Third=c -> PathList3=PathList2;
    PathList3=PathList
    ),
-   path2coor(PathList3,CoorList).
-   %save_txt(CoorList). 
+   path2coor(PathList3,CoorList),
+   assert(last_starter(X,Y,Z)),
+   save_txt. 
 
 path2coor([],[]).   
 path2coor([Node|PathRest],[X,Y,Z|Rest]):-   
     node(Node,coor(X,Y,Z)),
 	path2coor(PathRest,Rest).
 
-save_txt(CoorList):-                                             %将内存中的事实存入文件
-   open('path.txt',write,Out),
-   writefact1(CoorList,Out),
+save_txt:-                                             %将内存中的事实存入文件
+   open('last_starter.pl',write,Out),
+   findall(last_starter(X,Y,Z),last_starter(X,Y,Z),Facts),
+   writefact(Facts,Out),
    close(Out).
 
-writefact1([],_).                                           
-writefact1([X,Y,Z|Rest],Out):-
-   write(Out,X),
-   put_char(Out,' '), 
-   write(Out,Y),
-   put_char(Out,' '), 
-   write(Out,Z),
-   put_char(Out,' '), 
-   nl(Out),
-   writefact1(Rest,Out).
+path_back_plan(X,Y,Z,CoorList):-  
+   exists_file('last_starter.pl'),
+   consult('last_starter.pl'), 
+   last_starter(X0,Y0,Z0),
+   point_polygon(coor(X0,Y0,Z0),End,1),
+   retractall(last_starter),
+   path_plan(X,Y,Z,End,CoorList0),
+   append(CoorList0,[X0,Y0,Z0],CoorList).
    
 find_path(Start,End,Path_list):-
    (

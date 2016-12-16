@@ -547,6 +547,14 @@ def fillElement(structureList):#提取结构化指令之后的要素规范化
             structureList[i][1]=structureList[i][2].replace("开","")
             print structureList[i][2]
             structureList[i][2]="开"
+
+            
+        if "回" in structureList[i][2]:
+            structureList[i][2]="回"
+
+
+        if '回' in structureList[i][2] and structureList[i][1]=='__':
+            structureList[i][1]="起点"
             
         if "头" in structureList[i][2] or "转身" in structureList[i][2]:
             structureList[i][2]="掉头"
@@ -557,9 +565,13 @@ def fillElement(structureList):#提取结构化指令之后的要素规范化
             
         if "推" in structureList[i][2]:
             structureList[i][2]="推"
+		
+
+
 
         if "搬" in structureList[i][2]:
             structureList[i][2]="搬"
+		
             
         if "拿" in structureList[i][2]:
             structureList[i][2]="拿"
@@ -1040,6 +1052,7 @@ def testAll(dataa,step,cmNum):
         if '完成' in policy_c[0]:
             if "两" in storelist[2]:
                 storelist[2]=storelist[2].replace('两','2')
+            storelist[0]=str.lower(storelist[0])
             print storelist[0].replace('\n',''),storelist[1].replace('\n',''),storelist[2].replace('\n',''),storelist[3].replace('\n',''),storelist[4].replace('\n','')
             laststore=storelist
             f7=open('laststore','w')

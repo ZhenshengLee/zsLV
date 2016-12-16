@@ -234,6 +234,36 @@
 </category>
 
 <category>
+<pattern>总 确 认 前 * 米 加 速</pattern>
+<template>
+请问是要加速前进<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 前 * 米 减 速</pattern>
+<template>
+请问是要缓慢前进<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 退 * 米 加 速</pattern>
+<template>
+请问是要加速退后<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 退 * 米 减 速</pattern>
+<template>
+请问是要缓慢退后<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+
+
+<category>
 <pattern>完 成 后 * 米</pattern>
 <template>
 好的，我这就退后<set name="it"><person/></set>米！
@@ -246,6 +276,14 @@
 请问是要进入<set name="it"><person/></set>吗？
 </template>
 </category>
+
+<category>
+<pattern>总 确 认 * 回</pattern>
+<template>
+请问是要回到<set name="it"><person/></set>吗？
+</template>
+</category>
+
 
 <category>
 <pattern>完 成 * 进 入</pattern>
@@ -286,20 +324,6 @@
 <pattern>总 确 认 前 * 米</pattern>
 <template>
 请问是要向前走<set name="it"><person/></set>米吗？
-</template>
-</category>
-
-<category>
-<pattern>总 确 认 左 * 米</pattern>
-<template>
-请问是要向左走<set name="it"><person/></set>米吗？
-</template>
-</category>
-
-<category>
-<pattern>总 确 认 右 * 米</pattern>
-<template>
-请问是要向右走<set name="it"><person/></set>米吗？
 </template>
 </category>
 
@@ -440,6 +464,13 @@
 <pattern>完 成 * 走 出</pattern>
 <template>
 好的，我马上走出<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 回</pattern>
+<template>
+好的，我马上回到<set name="it"><person/></set>。
 </template>
 </category>
 

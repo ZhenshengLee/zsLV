@@ -17,3 +17,7 @@ path_done([b3c1d1,b3p01,b308d1]).
 path_done([b3c1d1,b309d1]).
 path_done([b309d1,b309d1]).
 path_done([b309d1,b3p01,b308d1]).
+path_done([c403d1,c402d1]).
+path_done([c400d1,c403d1]).
+path_done([c400d1,c402d1]).
+path_done([c400d1,c404d1]).
