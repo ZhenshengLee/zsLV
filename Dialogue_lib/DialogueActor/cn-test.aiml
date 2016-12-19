@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- Free software (c) 2012 andelf -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Andelf"/>
+<meta name="language" content="zh"/>
+
+
+
+<category>
+<pattern>提 示</pattern>
+<template>
+<random>
+  <li>你好，你想让我去什么地方？</li>
+  <li>你好，我有什么能为你做的吗？</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>完 成 加 速</pattern>
+<template>
+好的，我会加快脚步的。
+</template>
+</category>
+
+<category>
+<pattern>完 成 减 速</pattern>
+<template>
+好的，我会放慢脚步的。
+</template>
+</category>
+
+<category>
+<pattern>确 认 * 到</pattern>
+<template>
+请问是要去<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 到</pattern>
+<template>
+好的，我就去目的地<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>确 认 停 *</pattern>
+<template>
+请问是要让我停下来吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 开</pattern>
+<template>
+请问是要我去打开<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 开</pattern>
+<template>
+好的，我就去打开<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>完 成 停</pattern>
+<template>
+好的，我马上停下来。
+</template>
+</category>
+
+<category>
+<pattern>完 成 左</pattern>
+<template>
+好的，我马上左转。
+</template>
+</category>
+
+<category>
+<pattern>完 成 右</pattern>
+<template>
+好的，我马上右转。
+</template>
+</category>
+
+<category>
+<pattern>完 成 前</pattern>
+<template>
+好的，我马上前进。
+</template>
+</category>
+
+<category>
+<pattern>完 成 后</pattern>
+<template>
+好的，我马上后退。
+</template>
+</category>
+
+
+<category>
+<pattern>总 确 认 * 到</pattern>
+<template>
+请问是要让我去<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>动 作 确 认 前</pattern>
+<template>
+请问是要让我前进吗？
+</template>
+</category>
+
+
+<category>
+<pattern>动 作 确 认 左</pattern>
+<template>
+请问是要让我左转吗？
+</template>
+</category>
+
+<category>
+<pattern>动 作 确 认 右</pattern>
+<template>
+请问是要让我右转吗？
+</template>
+</category>
+
+<category>
+<pattern>动 作 确 认 后</pattern>
+<template>
+请问是要让我后退吗？
+</template>
+</category>
+
+<category>
+<pattern>动 作 确 认 停</pattern>
+<template>
+请问是要让我停下来吗？
+</template>
+</category>
+
+<category>
+<pattern>动 作 确 认 * </pattern>
+<template>
+请问是要<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * </pattern>
+<template>
+好的，我这就去<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>目 的 确 认 *</pattern>
+<template>
+请问是要让我到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 到 加 速</pattern>
+<template>
+请问是要加速到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 去 加 速</pattern>
+<template>
+请问是要加速到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 到 减 速</pattern>
+<template>
+请问是要减速到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 去 减 速</pattern>
+<template>
+请问是要减速到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 去</pattern>
+<template>
+请问是要到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 去</pattern>
+<template>
+好的，我就到<set name="it"><person/></set>去。
+</template>
+</category>
+
+<category>
+<pattern>速 度 确 认 减 速</pattern>
+<template>
+请问是要减速吗？
+</template>
+</category>
+
+<category>
+<pattern>速 度 确 认 加 速</pattern>
+<template>
+请问是要加速吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 后 * 米</pattern>
+<template>
+请问是要退后<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 前 * 米 加 速</pattern>
+<template>
+请问是要加速前进<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 前 * 米 减 速</pattern>
+<template>
+请问是要缓慢前进<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 退 * 米 加 速</pattern>
+<template>
+请问是要加速退后<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 退 * 米 减 速</pattern>
+<template>
+请问是要缓慢退后<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+
+
+<category>
+<pattern>完 成 后 * 米</pattern>
+<template>
+好的，我这就退后<set name="it"><person/></set>米！
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 进 入</pattern>
+<template>
+请问是要进入<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 回</pattern>
+<template>
+请问是要回到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+
+<category>
+<pattern>完 成 * 进 入</pattern>
+<template>
+好的，执行进入<set name="it"><person/></set>！
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 去 加 速</pattern>
+<template>
+好的，我就加速去<set name="it"><person/></set>！
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 去 减 速</pattern>
+<template>
+好的，我就减速去<set name="it"><person/></set>！
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 到 加 速</pattern>
+<template>
+好的，我就加速去<set name="it"><person/></set>！
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 到 减 速</pattern>
+<template>
+好的，我就减速去<set name="it"><person/></set>！
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 前 * 米</pattern>
+<template>
+请问是要向前走<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 走 * 米</pattern>
+<template>
+请问是要向前走<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 前 * 米</pattern>
+<template>
+好的，我这就向前走<set name="it"><person/></set>米。
+</template>
+</category>
+
+<category>
+<pattern>完 成 走 * 米</pattern>
+<template>
+好的，我这就走<set name="it"><person/></set>米。
+</template>
+</category>
+
+<category>
+<pattern>距 离 确 认 * 米</pattern>
+<template>
+请问是<set name="it"><person/></set>米吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 项 目 总 确 认 去 * </pattern>
+<template>
+请问是要去<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 项 目 总 确 认 到 * </pattern>
+<template>
+请问是要到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 项 目 总 确 认 到 * 加 速</pattern>
+<template>
+请问是要加速到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 项 目 总 确 认 到 * 减 速</pattern>
+<template>
+请问是要减速到<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 项 目 总 确 认 去 * 加 速</pattern>
+<template>
+请问是要加速去<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 项 目 总 确 认 去 * 减 速</pattern>
+<template>
+请问是要减速去<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 动 作 确 认 * </pattern>
+<template>
+请问是要<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 目 的 确 认 * </pattern>
+<template>
+请问是要到<set name="it"><person/></set>去吗？
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 目 的 确 认 无 匹 配 </pattern>
+<template>
+我不知道那个地点在哪，请重新告诉我。
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 动 作 确 认 无 匹 配 </pattern>
+<template>
+我不知道要怎么执行，请重新输入。
+</template>
+</category>
+
+<category>
+<pattern>未 收 录 项 目 总 确 认 无 匹 配 无 匹 配</pattern>
+<template>
+我不太清楚您的意思，请重新输入指令。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 无 匹 配 * </pattern>
+<template>
+我不知道您说的地点在哪，请重新告诉我目的地。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 无 匹 配 </pattern>
+<template>
+我不知道要怎么做，请重新输入。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 无 匹 配 无 匹 配 * </pattern>
+<template>
+我不太明白您的指示，请重新下达命令。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 走 出</pattern>
+<template>
+请问是要让我走出<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 走 出</pattern>
+<template>
+好的，我马上走出<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 回</pattern>
+<template>
+好的，我马上回到<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 走 * </pattern>
+<template>
+请问是要让我<set name="it"><person/></set>走吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 走 * </pattern>
+<template>
+好的,我就<set name="it"><person/></set>走。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 走 进</pattern>
+<template>
+请问是要让我走进<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 走 进</pattern>
+<template>
+好的，我马上走进<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 前 * 慢 慢</pattern>
+<template>
+请问是要让慢慢往前走<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 前 * 慢 慢</pattern>
+<template>
+好的，我就慢慢往前走<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 开</pattern>
+<template>
+请问是要开<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 打 开</pattern>
+<template>
+请问是要打开<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 开</pattern>
+<template>
+好的，我马上去开<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 打 开</pattern>
+<template>
+好的，我马上去打开<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 拍 摄</pattern>
+<template>
+请问是要拍<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 拍 摄</pattern>
+<template>
+我马上开始拍摄<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 录</pattern>
+<template>
+请问是要录<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 录</pattern>
+<template>
+我就开始录<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 采 集</pattern>
+<template>
+请问是要采集<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 采 集</pattern>
+<template>
+我马上开始采集<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 推</pattern>
+<template>
+请问是要推<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 推</pattern>
+<template>
+我马上开始推<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 搬</pattern>
+<template>
+请问是要拍<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 搬</pattern>
+<template>
+我就开始搬<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 抬</pattern>
+<template>
+请问是要抬<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 抬</pattern>
+<template>
+我就开始抬<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 拿</pattern>
+<template>
+请问是要拿<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 拿</pattern>
+<template>
+我马上去拿<set name="it"><person/></set>。
+</template>
+</category>
+
+<category>
+<pattern>总 确 认 * 加 速</pattern>
+<template>
+请问是要加速<set name="it"><person/></set>吗？
+</template>
+</category>
+
+<category>
+<pattern>完 成 * 加 速</pattern>
+<template>
+我马上加速<set name="it"><person/></set>。
+</template>
+</category>
+
+
+<category>
+<pattern>总 确 认 * 拍</pattern>
+<template>
+请问是要拍照片吗？
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>
+<random>
+  <li>我没听到那个，请您再说一遍！</li>
+  <li>我没太弄明白您的意思，请您再告诉我一下。</li>
+  <li>我不知道您说的是什么，请您重新输入。</li>
+  <li>我不太明白您的意思，我们可以从最简单的短话开始，比如往前走5米。</li>
+</random>
+</template>
+</category>
+</aiml>

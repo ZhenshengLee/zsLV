@@ -80,12 +80,20 @@
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
 			<Item Name="GlobalPlanner.lvlib" Type="Library" URL="../GlobalPlanner_lib/GlobalPlanner.lvlib"/>
+			<Item Name="GlobalPlannerPyPl.lvlib" Type="Library" URL="../GlobalPlannerPyPl/GlobalPlannerPyPl.lvlib"/>
 		</Item>
 		<Item Name="DebugTool" Type="Folder">
 			<Item Name="EventsLogUI.lvlib" Type="Library" URL="../EventsLogUI_lib/EventsLogUI.lvlib"/>
 			<Item Name="UnitTest.lvlib" Type="Library" URL="../UnitTest_lib/UnitTest.lvlib"/>
+			<Item Name="zsLaunch.lvlib" Type="Library" URL="../zsLaunch_lib/zsLaunch.lvlib"/>
 		</Item>
-		<Item Name="zsLaunch.lvlib" Type="Library" URL="../zsLaunch_lib/zsLaunch.lvlib"/>
+		<Item Name="Dialogue" Type="Folder">
+			<Item Name="DialogueActor" Type="Folder" URL="../Dialogue_lib/DialogueActor">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Dialogue.lvlib" Type="Library" URL="../Dialogue_lib/Dialogue.lvlib"/>
+			<Item Name="DialogueManagement.lvlib" Type="Library" URL="../DialogueManagement/DialogueManagement.lvlib"/>
+		</Item>
 		<Item Name="JoyStick.lvlib" Type="Library" URL="../JoyStick_lib/JoyStick.lvlib"/>
 		<Item Name="ControlPanel.lvlib" Type="Library" URL="../ControlPanel_lib/ControlPanel.lvlib"/>
 		<Item Name="LaunchCOUI.vi" Type="VI" URL="../zsLaunch_lib/Launcher/LaunchCOUI.vi"/>
@@ -276,10 +284,16 @@
 				<Item Name="add_twist.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/add_twist.vi"/>
 				<Item Name="_ROSDirection.ctl" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/Code/SubVIs/_ROSDirection.ctl"/>
 				<Item Name="parse_Pose2D.vi" Type="VI" URL="/&lt;vilib&gt;/Tufts CEEO ROS for LabVIEW Software/ROS/MessageParsing/geometry_msgs/parse_Pose2D.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="parse_PoseStamped.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/MessageParsing/geometry_msgs/stamped/parse_PoseStamped.vi"/>
 				<Item Name="add_pose_stamped.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/MessageBuilding/geometry_msgs/stamped/add_pose_stamped.vi"/>
+				<Item Name="parse_PoseStamped.vi" Type="VI" URL="/&lt;userlib&gt;/ROS for LabVIEW Software/ROS/MessageParsing/geometry_msgs/stamped/parse_PoseStamped.vi"/>
 			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
@@ -289,7 +303,6 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="pose.ctl" Type="VI" URL="../../ROS-for-LabVIEW-Software/MoreExample/ctl/pose.ctl"/>
 			<Item Name="Bool_msg.vi" Type="VI" URL="../States_lib/Running/Bool_msg.vi"/>
 			<Item Name="AriaDll.dll" Type="Document" URL="../FromWSY/dll/AriaDll.dll"/>
 		</Item>
