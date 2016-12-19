@@ -1,56 +1,80 @@
-:-dynamic
+:-dynamic 
    path_done/1,
+   node/2,
+   directly_link/4,
    last_starter/3.
    
-
 :- consult('point_polygon.pl'),
    consult('directly_link.pl'),
    consult('area_4F.pl'),
-   consult('node_4F.pl'). 
-/*   
-path_plan(X,Y,Z,End,Path_list):-   
-   point_polygon(coor(X,Y,Z),Start,1),
-   atom_concat(Start,d1,StartD1),
-   atom_concat(End,d1,EndD1),
-   find_path(StartD1,EndD1,Path_list).   
-% path_plan(520,300,0,b305,Path_list).   
-  
+   consult('node_4F.pl'),
+   consult('in_area.pl').
 
-path_plan(X,Y,Z,End,Path_list1,CoorList):-   
-   point_polygon(coor(X,Y,Z),Start,1),
-   atom_concat(Start,d1,StartD1),
-   atom_concat(End,d1,EndD1),
-   find_path(StartD1,EndD1,PathList),
-   path2coor(PathList,CoorList),
-   atoms_to_strings(Path_list,Path_list1). 
-*/ 
+path_plan1(X,Y,Z,XE,YE,ZE,CoorList):-           %坐标到坐标
+   assert(node(starter,coor(X,Y,Z))),  
+   point_polygon(coor(X,Y,Z),Start_Area,1), 
+   findall(Node1,(in_area(Node1,Start_Area),\+(Node1==starter)),Nodes1),
+   assert_directly_link(Nodes1,starter,Start_Area),
+   assert(node(end,coor(XE,YE,ZE))),  
+   point_polygon(coor(XE,YE,ZE),End_Area,1),
+   findall(Node2,(in_area(Node2,End_Area),\+(Node2==end)),Nodes2),
+   assert_directly_link(Nodes2,end,End_Area),
+   find_path(starter,end,PathList),%write(PathList),nl,
+   path2coor(PathList,CoorList), 
+   free_starter_and_end,
+   save_last_starter(X,Y,Z).
+%path_plan1(58000,109000,0,3000,6600,0,CoorList).
+%path_plan1(60000,94000,0,86000,85000,0,CoorList).
 
-path_plan(X,Y,Z,End,CoorList):-   
-   point_polygon(coor(X,Y,Z),Start,1),
-   atom_concat(Start,d1,StartD1),
-   atom_concat(End,d1,EndD1),
-   find_path(StartD1,EndD1,PathList),
-   PathList=[PathList1|PathList2],
-   (
-   sub_atom(StartD1,2, 1, _, Third),
-   Third=c -> PathList3=PathList2;
-   PathList3=PathList
-   ),
-   path2coor(PathList3,CoorList),
-   assert(last_starter(X,Y,Z)),
-   save_txt. 
+path_plan2(X,Y,Z,End,CoorList):-               %坐标到区域
+   assert(node(starter,coor(X,Y,Z))),  
+   point_polygon(coor(X,Y,Z),Start_Area,1), 
+   findall(Node1,(in_area(Node1,Start_Area),\+(Node1==starter)),Nodes1),
+   assert_directly_link(Nodes1,starter,Start_Area),
+   findall(Node2,in_area(Node2,End),Nodes22),
+   list_to_set(Nodes22,Nodes2),
+   findall(Dis,(member(EndNode,Nodes2),find_path_dis(starter,EndNode,Dis)),DisList),
+   min_list(DisList,Dis_Min),
+   once((member(EndNode1,Nodes2),find_path_dis(starter,EndNode1,Dis_Min))),%write(EndNode1),nl,
+   find_path(starter,EndNode1,PathList),
+   path2coor(PathList,CoorList), 
+   free_starter_and_end,
+   save_last_starter(X,Y,Z).
+%path_plan2(58000,109000,0,b404,CoorList).
+ 
+path_plan3(X,Y,Z,last_starter,CoorList):-               %坐标到出发点
+   exists_file('last_starter.pl'),
+   consult('last_starter.pl'),
+   last_starter(X1,Y1,Z1),
+   path_plan1(X,Y,Z,X1,Y1,Z1,CoorList).  
+%path_plan3(60000,94000,0,last_starter,CoorList).
+   
+free_starter_and_end:-                                             %释放path_try1所有事实
+   directly_link(Node1,Node2,_,_),
+   (Node1=starter;Node2=starter;Node1=end;Node2=end),!,
+   retract(directly_link(Node1,Node2,_,_)),
+   free_starter_and_end;
+   true.   
 
 path2coor([],[]).   
-path2coor([Node|PathRest],[X,Y,Z|Rest]):-   
+path2coor([Node|PathRest],[[X,Y,Z]|Rest]):-   
     node(Node,coor(X,Y,Z)),
 	path2coor(PathRest,Rest).
 
-save_txt:-                                             %将内存中的事实存入文件
+save_last_starter(X,Y,Z):-
+   assert(last_starter(X,Y,Z)), 
    open('last_starter.pl',write,Out),
    findall(last_starter(X,Y,Z),last_starter(X,Y,Z),Facts),
    writefact(Facts,Out),
    close(Out).
 
+assert_directly_link([],_,_).   
+assert_directly_link([Node1|RestNodes],Node0,Area):-
+   distance(Node1,Node0,Dis),
+   assert(directly_link(Node1,Node0,Area,Dis)),
+   assert(directly_link(Node0,Node1,Area,Dis)),
+   assert_directly_link(RestNodes,Node0,Area).
+/*   
 path_back_plan(X,Y,Z,CoorList):-  
    exists_file('last_starter.pl'),
    consult('last_starter.pl'), 
@@ -59,7 +83,7 @@ path_back_plan(X,Y,Z,CoorList):-
    retractall(last_starter),
    path_plan(X,Y,Z,End,CoorList0),
    append(CoorList0,[X0,Y0,Z0],CoorList).
-   
+*/   
 find_path(Start,End,Path_list):-
    (
    exists_file('shortest_path.pl'),
@@ -74,14 +98,35 @@ find_path(Start,End,Path_list):-
    find_path_list(Start,LastNode,[LastNode,End],Path_list)   %借助A星算法产生的相邻点事实群，提取出所求最佳路径序列
    ),
    assert(path_done(Path_list)),                             %将新找到的最短路径序列存成事实
-   save_path_fact,                                           %将内存中的最短路径事实存入文件
+   %save_path_fact,                                           %将内存中的最短路径事实存入文件
+   free_memory,!                                             %释放内存空间 
+   ).
+%  find_path(a620d1,b505d1,PathList).
+   
+find_path_dis(Start,End,Dis):-
+   ((
+   exists_file('shortest_path.pl'),
+   consult('shortest_path.pl'),                              %读取先验知识库
+   check_memory(Start,End,Path_list),                        %尝试在先验知识中寻找答案
+   free_path_done,!;
+   a_star(Start,End),                                        %执行A星算法，将产生的结果存成事实，存于内存空间    
+   (
+   path_try1(Start,End,_,_),!,                               %判断求得的最小路径链段是否直接由起点和终点连接，若是，直接得到答案
+   Path_list=[Start,End];
+   path_try1(LastNode,End,_,_),                              %提取路径序列的初始化操作
+   find_path_list(Start,LastNode,[LastNode,End],Path_list)   %借助A星算法产生的相邻点事实群，提取出所求最佳路径序列
+   )),
+   path_to_dis(Path_list,0,Dis),
+   assert(path_done(Path_list)),                             %将新找到的最短路径序列存成事实
+   %save_path_fact,                                           %将内存中的最短路径事实存入文件
    free_memory,!                                             %释放内存空间 
    ).
 
-atoms_to_strings([],[]).	
-atoms_to_strings([Atom|Atoms],[String|Strings]):-
-    atom_string(Atom,String),
-	atoms_to_strings(Atoms,Strings).  
+path_to_dis([_],Dis,Dis).
+path_to_dis([Node1,Node2|Rest],Dis0,Dis):-
+   distance(Node1,Node2,Dis1),
+   Dis2 is Dis0 + Dis1,
+   path_to_dis([Node2|Rest],Dis2,Dis).
    
 check_memory(Start,End,Wanted_path):-                        %尝试在先验知识中寻找答案
    findall(PathList,path_done(PathList),PathLists),
@@ -226,25 +271,4 @@ distance(Node1,Node2,Dis):-
    node(Node1,coor(X1,Y1,_)),
    node(Node2,coor(X2,Y2,_)),
    Dis is sqrt((Y1-Y2)*(Y1-Y2)+(X1-X2)*(X1-X2)).
-
-/*   
-g(s,a,1).
-g(s,b,4).
-g(a,b,2).
-g(a,c,5).
-g(a,g,12).
-g(b,c,2).
-g(c,g,3). 
-
-h(s,g,7).
-h(a,g,6).
-h(b,g,4).
-h(c,g,2).
-h(g,g,0). 
-*/
-
-%示例命令
-%  find_path(a620d1,d502d1,PathList).
-%  find_path(a620d1,b505d1,PathList).
-%  find_path(s,g,Path_list).
-%  find_path(a,c,Path_list).
+ 

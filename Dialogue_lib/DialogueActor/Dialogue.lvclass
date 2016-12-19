@@ -93,12 +93,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 	</Item>
 	<Item Name="zs_prologer.vi" Type="VI" URL="../zs_prologer.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$Y!!!!$!!%!!!!$5!+!!:Q&lt;X.F8VA!!!V!#A!'='^T:6^:!!!.1!I!"H"P=W6@?A!!$U!+!!BQ&lt;X.F8X*P&gt;!!!%%!B#G:P=G.F8W*P&lt;WQ!!#"!5!!&amp;!!%!!A!$!!1!"1^H&lt;W&amp;M8X&gt;J&gt;'B@:G^S9W5!'%"!!!(`````!!9+:W^B&lt;&amp;^B=H*B?1!!%E!Q`````QFO&lt;W2F8W&gt;P97Q!"U!+!!&amp;Z!!&gt;!#A!"?!"/!0!!#Q!!!!!!!!!(!!!!!!!!!!A!!!!*!!I$!!$I!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!!!!!!!!!!##!!!!!!!!!!)!!!!#!!!!!!"!!M!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%-!!!!$A!%!!!!$5!+!!:Q&lt;X.F8VA!!!V!#A!'='^T:6^:!!!.1!I!"H"P=W6@?A!!$U!+!!BQ&lt;X.F8X*P&gt;!!!%%!B#G:P=G.F8W*P&lt;WQ!!#"!5!!&amp;!!%!!A!$!!1!"1^H&lt;W&amp;M8X&gt;J&gt;'B@:G^S9W5!'%"!!!(`````!!9+:W^B&lt;&amp;^B=H*B?1!!$5!+!!:H&lt;W&amp;M8XE!!!V!#A!':W^B&lt;&amp;^Y!!!31$$`````#7&gt;P97R@&lt;G^E:1!(1!I!!8E!"U!+!!&amp;Y!%A!]!!+!!!!!!!!!!=!!!!)!!E!#A!,!!Q$!!$1!!!!!!!!!!!!!!!!!!!*!!!!!!!!!!A!!!!)!!!"#A!!!!A!!!!)!!!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821074</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 </LVClass>

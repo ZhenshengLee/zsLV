@@ -36,6 +36,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
+		<Item Name="goal_with_force_Msg.vi" Type="VI" URL="../goal_with_force_Msg.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'0!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!6%V.U982F)%&amp;D&gt;'^S,GRW9WRB=X-!%6"S&lt;W.F=X-A5X2B&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!+!!:Q&lt;X.F8VA!!!V!#A!'='^T:6^:!!!.1!I!"H"P=W6@?A!!$U!+!!BQ&lt;X.F8X*P&gt;!!!%%!B#G:P=G.F8W*P&lt;WQ!!"J!5!!&amp;!!=!#!!*!!I!#QD7N3D1R&lt;L&amp;+1!!1E"Q!"Y!!"Q-5X2B&gt;'6T,GRW&lt;'FC$5&gt;V;72F,GRW9WRB=X-!!"J4&gt;'&amp;U:8-O&lt;(:M;7)[2X6J:'5O&lt;(:D&lt;'&amp;T=Q!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!-!!U$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!/!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+		</Item>
 		<Item Name="LocalGoal_Msg.vi" Type="VI" URL="../LocalGoal_Msg.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;Q!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!6%V.U982F)%&amp;D&gt;'^S,GRW9WRB=X-!%6"S&lt;W.F=X-A5X2B&gt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!"U!+!!&amp;Y!!&gt;!#A!"?1!(1!I!!8I!,!$R!!!!!!!!!!%*5'^J&lt;H1O9X2M!"J!5!!$!!=!#!!*#.;V+.$&amp;OM5J!!"#1(!!(A!!(!R4&gt;'&amp;U:8-O&lt;(:M;7).2X6J:'5O&lt;(:D&lt;'&amp;T=Q!!'F.U982F=SZM&gt;GRJ9DJ(&gt;7FE:3ZM&gt;G.M98.T!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!)!!!!EA!!!!!"!!Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
